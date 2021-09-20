@@ -197,11 +197,6 @@ unicode_emote,text
 🇲 🇸, montserrat 
 🇲 🇦, morocco 
 🇲 🇿, mozambique 
-🤶 🏿, mrs.clausdarkskintone 
-🤶 🏻, mrs.clauslightskintone 
-🤶 🏾, mrs.clausmediumdarkskintone 
-🤶 🏼, mrs.clausmediumlightskintone 
-🤶 🏽, mrs.clausmediumskintone 
 🤶, mrs.claus 
 🇲 🇲, myanmarburma 
 🆕, newbutton 
@@ -220,11 +215,6 @@ unicode_emote,text
 🇰 🇵, northkorea 
 🇲 🇵, northernmarianaislands 
 🇳 🇴, norway 
-👌 🏿, okhanddarkskintone 
-👌 🏻, okhandlightskintone 
-👌 🏾, okhandmediumdarkskintone 
-👌 🏼, okhandmediumlightskintone 
-👌 🏽, okhandmediumskintone 
 🆗, okbutton 
 👌, okhand 
 🔛, on!arrow 
@@ -255,11 +245,6 @@ unicode_emote,text
 ♐, sagittarius 
 🇼 🇸, samoa 
 🇸 🇲, sanmarino 
-🎅 🏿, santaclausdarkskintone 
-🎅 🏻, santaclauslightskintone 
-🎅 🏾, santaclausmediumdarkskintone 
-🎅 🏼, santaclausmediumlightskintone 
-🎅 🏽, santaclausmediumskintone 
 🎅, santaclaus 
 🇸 🇦, saudiarabia 
 ♏, scorpius 
@@ -335,739 +320,44 @@ unicode_emote,text
 🇾 🇪, yemen 
 🇿 🇲, zambia 
 🇿 🇼, zimbabwe 
-👨 🏿 ‍ 🎨, manartistdarkskintone 
-👨 🏻 ‍ 🎨, manartistlightskintone 
-👨 🏾 ‍ 🎨, manartistmediumdarkskintone 
-👨 🏼 ‍ 🎨, manartistmediumlightskintone 
-👨 🏽 ‍ 🎨, manartistmediumskintone 
-👨 🏿 ‍ 🚀, manastronautdarkskintone 
-👨 🏻 ‍ 🚀, manastronautlightskintone 
-👨 🏾 ‍ 🚀, manastronautmediumdarkskintone 
-👨 🏼 ‍ 🚀, manastronautmediumlightskintone 
-👨 🏽 ‍ 🚀, manastronautmediumskintone 
-🚴 🏿 ‍ ♂ ️, manbikingdarkskintone 
-🚴 🏻 ‍ ♂ ️, manbikinglightskintone 
-🚴 🏾 ‍ ♂ ️, manbikingmediumdarkskintone 
-🚴 🏼 ‍ ♂ ️, manbikingmediumlightskintone 
-🚴 🏽 ‍ ♂ ️, manbikingmediumskintone 
-⛹ 🏿 ‍ ♂ ️, manbouncingballdarkskintone 
-⛹ 🏻 ‍ ♂ ️, manbouncingballlightskintone 
-⛹ 🏾 ‍ ♂ ️, manbouncingballmediumdarkskintone 
-⛹ 🏼 ‍ ♂ ️, manbouncingballmediumlightskintone 
-⛹ 🏽 ‍ ♂ ️, manbouncingballmediumskintone 
-🙇 🏿 ‍ ♂ ️, manbowingdarkskintone 
-🙇 🏻 ‍ ♂ ️, manbowinglightskintone 
-🙇 🏾 ‍ ♂ ️, manbowingmediumdarkskintone 
-🙇 🏼 ‍ ♂ ️, manbowingmediumlightskintone 
-🙇 🏽 ‍ ♂ ️, manbowingmediumskintone 
-🤸 🏿 ‍ ♂ ️, mancartwheelingdarkskintone 
-🤸 🏻 ‍ ♂ ️, mancartwheelinglightskintone 
-🤸 🏾 ‍ ♂ ️, mancartwheelingmediumdarkskintone 
-🤸 🏼 ‍ ♂ ️, mancartwheelingmediumlightskintone 
-🤸 🏽 ‍ ♂ ️, mancartwheelingmediumskintone 
-👷 🏿 ‍ ♂ ️, manconstructionworkerdarkskintone 
-👷 🏻 ‍ ♂ ️, manconstructionworkerlightskintone 
-👷 🏾 ‍ ♂ ️, manconstructionworkermediumdarkskintone 
-👷 🏼 ‍ ♂ ️, manconstructionworkermediumlightskintone 
-👷 🏽 ‍ ♂ ️, manconstructionworkermediumskintone 
-👨 🏿 ‍ 🍳, mancookdarkskintone 
-👨 🏻 ‍ 🍳, mancooklightskintone 
-👨 🏾 ‍ 🍳, mancookmediumdarkskintone 
-👨 🏼 ‍ 🍳, mancookmediumlightskintone 
-👨 🏽 ‍ 🍳, mancookmediumskintone 
-🕺 🏿, mandancingdarkskintone 
-🕺 🏻, mandancinglightskintone 
-🕺 🏾, mandancingmediumdarkskintone 
-🕺 🏼, mandancingmediumlightskintone 
-🕺 🏽, mandancingmediumskintone 
-🕵 🏿 ‍ ♂ ️, mandetectivedarkskintone 
-🕵 🏻 ‍ ♂ ️, mandetectivelightskintone 
-🕵 🏾 ‍ ♂ ️, mandetectivemediumdarkskintone 
-🕵 🏼 ‍ ♂ ️, mandetectivemediumlightskintone 
-🕵 🏽 ‍ ♂ ️, mandetectivemediumskintone 
-🤦 🏿 ‍ ♂ ️, manfacepalmingdarkskintone 
-🤦 🏻 ‍ ♂ ️, manfacepalminglightskintone 
-🤦 🏾 ‍ ♂ ️, manfacepalmingmediumdarkskintone 
-🤦 🏼 ‍ ♂ ️, manfacepalmingmediumlightskintone 
-🤦 🏽 ‍ ♂ ️, manfacepalmingmediumskintone 
-👨 🏿 ‍ 🏭, manfactoryworkerdarkskintone 
-👨 🏻 ‍ 🏭, manfactoryworkerlightskintone 
-👨 🏾 ‍ 🏭, manfactoryworkermediumdarkskintone 
-👨 🏼 ‍ 🏭, manfactoryworkermediumlightskintone 
-👨 🏽 ‍ 🏭, manfactoryworkermediumskintone 
-👨 🏿 ‍ 🌾, manfarmerdarkskintone 
-👨 🏻 ‍ 🌾, manfarmerlightskintone 
-👨 🏾 ‍ 🌾, manfarmermediumdarkskintone 
-👨 🏼 ‍ 🌾, manfarmermediumlightskintone 
-👨 🏽 ‍ 🌾, manfarmermediumskintone 
-👨 🏿 ‍ 🚒, manfirefighterdarkskintone 
-👨 🏻 ‍ 🚒, manfirefighterlightskintone 
-👨 🏾 ‍ 🚒, manfirefightermediumdarkskintone 
-👨 🏼 ‍ 🚒, manfirefightermediumlightskintone 
-👨 🏽 ‍ 🚒, manfirefightermediumskintone 
-🙍 🏿 ‍ ♂ ️, manfrowningdarkskintone 
-🙍 🏻 ‍ ♂ ️, manfrowninglightskintone 
-🙍 🏾 ‍ ♂ ️, manfrowningmediumdarkskintone 
-🙍 🏼 ‍ ♂ ️, manfrowningmediumlightskintone 
-🙍 🏽 ‍ ♂ ️, manfrowningmediumskintone 
-🙅 🏿 ‍ ♂ ️, mangesturingnodarkskintone 
-🙅 🏻 ‍ ♂ ️, mangesturingnolightskintone 
-🙅 🏾 ‍ ♂ ️, mangesturingnomediumdarkskintone 
-🙅 🏼 ‍ ♂ ️, mangesturingnomediumlightskintone 
-🙅 🏽 ‍ ♂ ️, mangesturingnomediumskintone 
-🙆 🏿 ‍ ♂ ️, mangesturingokdarkskintone 
-🙆 🏻 ‍ ♂ ️, mangesturingoklightskintone 
-🙆 🏾 ‍ ♂ ️, mangesturingokmediumdarkskintone 
-🙆 🏼 ‍ ♂ ️, mangesturingokmediumlightskintone 
-🙆 🏽 ‍ ♂ ️, mangesturingokmediumskintone 
-💇 🏿 ‍ ♂ ️, mangettinghaircutdarkskintone 
-💇 🏻 ‍ ♂ ️, mangettinghaircutlightskintone 
-💇 🏾 ‍ ♂ ️, mangettinghaircutmediumdarkskintone 
-💇 🏼 ‍ ♂ ️, mangettinghaircutmediumlightskintone 
-💇 🏽 ‍ ♂ ️, mangettinghaircutmediumskintone 
-💆 🏿 ‍ ♂ ️, mangettingmassagedarkskintone 
-💆 🏻 ‍ ♂ ️, mangettingmassagelightskintone 
-💆 🏾 ‍ ♂ ️, mangettingmassagemediumdarkskintone 
-💆 🏼 ‍ ♂ ️, mangettingmassagemediumlightskintone 
-💆 🏽 ‍ ♂ ️, mangettingmassagemediumskintone 
-🏌 🏿 ‍ ♂ ️, mangolfingdarkskintone 
-🏌 🏻 ‍ ♂ ️, mangolfinglightskintone 
-🏌 🏾 ‍ ♂ ️, mangolfingmediumdarkskintone 
-🏌 🏼 ‍ ♂ ️, mangolfingmediumlightskintone 
-🏌 🏽 ‍ ♂ ️, mangolfingmediumskintone 
-💂 🏿 ‍ ♂ ️, manguarddarkskintone 
-💂 🏻 ‍ ♂ ️, manguardlightskintone 
-💂 🏾 ‍ ♂ ️, manguardmediumdarkskintone 
-💂 🏼 ‍ ♂ ️, manguardmediumlightskintone 
-💂 🏽 ‍ ♂ ️, manguardmediumskintone 
-👨 🏿 ‍ ⚕ ️, manhealthworkerdarkskintone 
-👨 🏻 ‍ ⚕ ️, manhealthworkerlightskintone 
-👨 🏾 ‍ ⚕ ️, manhealthworkermediumdarkskintone 
-👨 🏼 ‍ ⚕ ️, manhealthworkermediumlightskintone 
-👨 🏽 ‍ ⚕ ️, manhealthworkermediumskintone 
-🕴 🏿, maninbusinesssuitlevitatingdarkskintone 
-🕴 🏻, maninbusinesssuitlevitatinglightskintone 
-🕴 🏾, maninbusinesssuitlevitatingmediumdarkskintone 
-🕴 🏼, maninbusinesssuitlevitatingmediumlightskintone 
-🕴 🏽, maninbusinesssuitlevitatingmediumskintone 
-🤵 🏿, manintuxedodarkskintone 
-🤵 🏻, manintuxedolightskintone 
-🤵 🏾, manintuxedomediumdarkskintone 
-🤵 🏼, manintuxedomediumlightskintone 
-🤵 🏽, manintuxedomediumskintone 
-👨 🏿 ‍ ⚖ ️, manjudgedarkskintone 
-👨 🏻 ‍ ⚖ ️, manjudgelightskintone 
-👨 🏾 ‍ ⚖ ️, manjudgemediumdarkskintone 
-👨 🏼 ‍ ⚖ ️, manjudgemediumlightskintone 
-👨 🏽 ‍ ⚖ ️, manjudgemediumskintone 
-🤹 🏿 ‍ ♂ ️, manjugglingdarkskintone 
-🤹 🏻 ‍ ♂ ️, manjugglinglightskintone 
-🤹 🏾 ‍ ♂ ️, manjugglingmediumdarkskintone 
-🤹 🏼 ‍ ♂ ️, manjugglingmediumlightskintone 
-🤹 🏽 ‍ ♂ ️, manjugglingmediumskintone 
-🏋 🏿 ‍ ♂ ️, manliftingweightsdarkskintone 
-🏋 🏻 ‍ ♂ ️, manliftingweightslightskintone 
-🏋 🏾 ‍ ♂ ️, manliftingweightsmediumdarkskintone 
-🏋 🏼 ‍ ♂ ️, manliftingweightsmediumlightskintone 
-🏋 🏽 ‍ ♂ ️, manliftingweightsmediumskintone 
-👨 🏿 ‍ 🔧, manmechanicdarkskintone 
-👨 🏻 ‍ 🔧, manmechaniclightskintone 
-👨 🏾 ‍ 🔧, manmechanicmediumdarkskintone 
-👨 🏼 ‍ 🔧, manmechanicmediumlightskintone 
-👨 🏽 ‍ 🔧, manmechanicmediumskintone 
-🚵 🏿 ‍ ♂ ️, manmountainbikingdarkskintone 
-🚵 🏻 ‍ ♂ ️, manmountainbikinglightskintone 
-🚵 🏾 ‍ ♂ ️, manmountainbikingmediumdarkskintone 
-🚵 🏼 ‍ ♂ ️, manmountainbikingmediumlightskintone 
-🚵 🏽 ‍ ♂ ️, manmountainbikingmediumskintone 
-👨 🏿 ‍ 💼, manofficeworkerdarkskintone 
-👨 🏻 ‍ 💼, manofficeworkerlightskintone 
-👨 🏾 ‍ 💼, manofficeworkermediumdarkskintone 
-👨 🏼 ‍ 💼, manofficeworkermediumlightskintone 
-👨 🏽 ‍ 💼, manofficeworkermediumskintone 
-👨 🏿 ‍ ✈ ️, manpilotdarkskintone 
-👨 🏻 ‍ ✈ ️, manpilotlightskintone 
-👨 🏾 ‍ ✈ ️, manpilotmediumdarkskintone 
-👨 🏼 ‍ ✈ ️, manpilotmediumlightskintone 
-👨 🏽 ‍ ✈ ️, manpilotmediumskintone 
-🤾 🏿 ‍ ♂ ️, manplayinghandballdarkskintone 
-🤾 🏻 ‍ ♂ ️, manplayinghandballlightskintone 
-🤾 🏾 ‍ ♂ ️, manplayinghandballmediumdarkskintone 
-🤾 🏼 ‍ ♂ ️, manplayinghandballmediumlightskintone 
-🤾 🏽 ‍ ♂ ️, manplayinghandballmediumskintone 
-🤽 🏿 ‍ ♂ ️, manplayingwaterpolodarkskintone 
-🤽 🏻 ‍ ♂ ️, manplayingwaterpololightskintone 
-🤽 🏾 ‍ ♂ ️, manplayingwaterpolomediumdarkskintone 
-🤽 🏼 ‍ ♂ ️, manplayingwaterpolomediumlightskintone 
-🤽 🏽 ‍ ♂ ️, manplayingwaterpolomediumskintone 
-👮 🏿 ‍ ♂ ️, manpoliceofficerdarkskintone 
-👮 🏻 ‍ ♂ ️, manpoliceofficerlightskintone 
-👮 🏾 ‍ ♂ ️, manpoliceofficermediumdarkskintone 
-👮 🏼 ‍ ♂ ️, manpoliceofficermediumlightskintone 
-👮 🏽 ‍ ♂ ️, manpoliceofficermediumskintone 
-🙎 🏿 ‍ ♂ ️, manpoutingdarkskintone 
-🙎 🏻 ‍ ♂ ️, manpoutinglightskintone 
-🙎 🏾 ‍ ♂ ️, manpoutingmediumdarkskintone 
-🙎 🏼 ‍ ♂ ️, manpoutingmediumlightskintone 
-🙎 🏽 ‍ ♂ ️, manpoutingmediumskintone 
-🙋 🏿 ‍ ♂ ️, manraisinghanddarkskintone 
-🙋 🏻 ‍ ♂ ️, manraisinghandlightskintone 
-🙋 🏾 ‍ ♂ ️, manraisinghandmediumdarkskintone 
-🙋 🏼 ‍ ♂ ️, manraisinghandmediumlightskintone 
-🙋 🏽 ‍ ♂ ️, manraisinghandmediumskintone 
-🚣 🏿 ‍ ♂ ️, manrowingboatdarkskintone 
-🚣 🏻 ‍ ♂ ️, manrowingboatlightskintone 
-🚣 🏾 ‍ ♂ ️, manrowingboatmediumdarkskintone 
-🚣 🏼 ‍ ♂ ️, manrowingboatmediumlightskintone 
-🚣 🏽 ‍ ♂ ️, manrowingboatmediumskintone 
-🏃 🏿 ‍ ♂ ️, manrunningdarkskintone 
-🏃 🏻 ‍ ♂ ️, manrunninglightskintone 
-🏃 🏾 ‍ ♂ ️, manrunningmediumdarkskintone 
-🏃 🏼 ‍ ♂ ️, manrunningmediumlightskintone 
-🏃 🏽 ‍ ♂ ️, manrunningmediumskintone 
-👨 🏿 ‍ 🔬, manscientistdarkskintone 
-👨 🏻 ‍ 🔬, manscientistlightskintone 
-👨 🏾 ‍ 🔬, manscientistmediumdarkskintone 
-👨 🏼 ‍ 🔬, manscientistmediumlightskintone 
-👨 🏽 ‍ 🔬, manscientistmediumskintone 
-🤷 🏿 ‍ ♂ ️, manshruggingdarkskintone 
-🤷 🏻 ‍ ♂ ️, manshrugginglightskintone 
-🤷 🏾 ‍ ♂ ️, manshruggingmediumdarkskintone 
-🤷 🏼 ‍ ♂ ️, manshruggingmediumlightskintone 
-🤷 🏽 ‍ ♂ ️, manshruggingmediumskintone 
-👨 🏿 ‍ 🎤, mansingerdarkskintone 
-👨 🏻 ‍ 🎤, mansingerlightskintone 
-👨 🏾 ‍ 🎤, mansingermediumdarkskintone 
-👨 🏼 ‍ 🎤, mansingermediumlightskintone 
-👨 🏽 ‍ 🎤, mansingermediumskintone 
-👨 🏿 ‍ 🎓, manstudentdarkskintone 
-👨 🏻 ‍ 🎓, manstudentlightskintone 
-👨 🏾 ‍ 🎓, manstudentmediumdarkskintone 
-👨 🏼 ‍ 🎓, manstudentmediumlightskintone 
-👨 🏽 ‍ 🎓, manstudentmediumskintone 
-🏄 🏿 ‍ ♂ ️, mansurfingdarkskintone 
-🏄 🏻 ‍ ♂ ️, mansurfinglightskintone 
-🏄 🏾 ‍ ♂ ️, mansurfingmediumdarkskintone 
-🏄 🏼 ‍ ♂ ️, mansurfingmediumlightskintone 
-🏄 🏽 ‍ ♂ ️, mansurfingmediumskintone 
-🏊 🏿 ‍ ♂ ️, manswimmingdarkskintone 
-🏊 🏻 ‍ ♂ ️, manswimminglightskintone 
-🏊 🏾 ‍ ♂ ️, manswimmingmediumdarkskintone 
-🏊 🏼 ‍ ♂ ️, manswimmingmediumlightskintone 
-🏊 🏽 ‍ ♂ ️, manswimmingmediumskintone 
-👨 🏿 ‍ 🏫, manteacherdarkskintone 
-👨 🏻 ‍ 🏫, manteacherlightskintone 
-👨 🏾 ‍ 🏫, manteachermediumdarkskintone 
-👨 🏼 ‍ 🏫, manteachermediumlightskintone 
-👨 🏽 ‍ 🏫, manteachermediumskintone 
-👨 🏿 ‍ 💻, mantechnologistdarkskintone 
-👨 🏻 ‍ 💻, mantechnologistlightskintone 
-👨 🏾 ‍ 💻, mantechnologistmediumdarkskintone 
-👨 🏼 ‍ 💻, mantechnologistmediumlightskintone 
-👨 🏽 ‍ 💻, mantechnologistmediumskintone 
-💁 🏿 ‍ ♂ ️, mantippinghanddarkskintone 
-💁 🏻 ‍ ♂ ️, mantippinghandlightskintone 
-💁 🏾 ‍ ♂ ️, mantippinghandmediumdarkskintone 
-💁 🏼 ‍ ♂ ️, mantippinghandmediumlightskintone 
-💁 🏽 ‍ ♂ ️, mantippinghandmediumskintone 
-🚶 🏿 ‍ ♂ ️, manwalkingdarkskintone 
-🚶 🏻 ‍ ♂ ️, manwalkinglightskintone 
-🚶 🏾 ‍ ♂ ️, manwalkingmediumdarkskintone 
-🚶 🏼 ‍ ♂ ️, manwalkingmediumlightskintone 
-🚶 🏽 ‍ ♂ ️, manwalkingmediumskintone 
-👳 🏿 ‍ ♂ ️, manwearingturbandarkskintone 
-👳 🏻 ‍ ♂ ️, manwearingturbanlightskintone 
-👳 🏾 ‍ ♂ ️, manwearingturbanmediumdarkskintone 
-👳 🏼 ‍ ♂ ️, manwearingturbanmediumlightskintone 
-👳 🏽 ‍ ♂ ️, manwearingturbanmediumskintone 
-👲 🏿, manwithchinesecapdarkskintone 
-👲 🏻, manwithchinesecaplightskintone 
-👲 🏾, manwithchinesecapmediumdarkskintone 
-👲 🏼, manwithchinesecapmediumlightskintone 
-👲 🏽, manwithchinesecapmediumskintone 
 👲, manwithchinesecap 
-🤽 ‍ ♂ ️, manplayingwaterpolo 
-👮 ‍ ♂ ️, manpoliceofficer 
-🙎 ‍ ♂ ️, manpouting 
-🙋 ‍ ♂ ️, manraisinghand 
-🚣 ‍ ♂ ️, manrowingboat 
-🏃 ‍ ♂ ️, manrunning 
 👨 ‍ 🔬, manscientist 
-🤷 ‍ ♂ ️, manshrugging 
 👨 ‍ 🎤, mansinger 
 👨 ‍ 🎓, manstudent 
-🏄 ‍ ♂ ️, mansurfing 
-🏊 ‍ ♂ ️, manswimming 
 👨 ‍ 🏫, manteacher 
 👨 ‍ 💻, mantechnologist 
-💁 ‍ ♂ ️, mantippinghand 
-🚶 ‍ ♂ ️, manwalking 
-👳 ‍ ♂ ️, manwearingturban 
-🤾 ‍ ♂ ️, manplayinghandball 
 👨 ‍ ✈ ️, manpilot 
 👨 ‍ 💼, manofficeworker 
-🚵 ‍ ♂ ️, manmountainbiking 
 👨 ‍ 🔧, manmechanic 
-🏋 ️ ‍ ♂ ️, manliftingweights 
-🤹 ‍ ♂ ️, manjuggling 
 👨 ‍ ⚖ ️, manjudge 
 🤵, manintuxedo 
 🕴, maninbusinesssuitlevitating 
 👨 ‍ ⚕ ️, manhealthworker 
-💂 ‍ ♂ ️, manguard 
-🏌 ️ ‍ ♂ ️, mangolfing 
-💆 ‍ ♂ ️, mangettingmassage 
-💇 ‍ ♂ ️, mangettinghaircut 
-🙆 ‍ ♂ ️, mangesturingok 
-🙅 ‍ ♂ ️, mangesturingno 
-🙍 ‍ ♂ ️, manfrowning 
 👨 ‍ 🚒, manfirefighter 
 👨 ‍ 🌾, manfarmer 
 👨 ‍ 🏭, manfactoryworker 
-🤦 ‍ ♂ ️, manfacepalming 
 🕺, mandancing 
 👨 ‍ 🍳, mancook 
-🤸 ‍ ♂ ️, mancartwheeling 
-🙇 ‍ ♂ ️, manbowing 
-⛹ ️ ‍ ♂ ️, manbouncingball 
 👨 ‍ 🎨, manartist 
 👨 ‍ 🚀, manastronaut 
-🚴 ‍ ♂ ️, manbiking 
-👷 ‍ ♂ ️, manconstructionworker 
-🕵 ️ ‍ ♂ ️, mandetective 
-👨 🏾, manmediumdarkskintone 
-👨 🏼, manmediumlightskintone 
-👨 🏽, manmediumskintone 
-👨 🏻, manlightskintone 
-👨 🏿, mandarkskintone 
 👨, man 
-👩 🏿 ‍ 🎨, womanartistdarkskintone 
-👩 🏻 ‍ 🎨, womanartistlightskintone 
-👩 🏾 ‍ 🎨, womanartistmediumdarkskintone 
-👩 🏼 ‍ 🎨, womanartistmediumlightskintone 
-👩 🏽 ‍ 🎨, womanartistmediumskintone 
-👩 🏿 ‍ 🚀, womanastronautdarkskintone 
-👩 🏻 ‍ 🚀, womanastronautlightskintone 
-👩 🏾 ‍ 🚀, womanastronautmediumdarkskintone 
-👩 🏼 ‍ 🚀, womanastronautmediumlightskintone 
-👩 🏽 ‍ 🚀, womanastronautmediumskintone 
-🚴 🏿 ‍ ♀ ️, womanbikingdarkskintone 
-🚴 🏻 ‍ ♀ ️, womanbikinglightskintone 
-🚴 🏾 ‍ ♀ ️, womanbikingmediumdarkskintone 
-🚴 🏼 ‍ ♀ ️, womanbikingmediumlightskintone 
-🚴 🏽 ‍ ♀ ️, womanbikingmediumskintone 
-⛹ 🏿 ‍ ♀ ️, womanbouncingballdarkskintone 
-⛹ 🏻 ‍ ♀ ️, womanbouncingballlightskintone 
-⛹ 🏾 ‍ ♀ ️, womanbouncingballmediumdarkskintone 
-⛹ 🏼 ‍ ♀ ️, womanbouncingballmediumlightskintone 
-⛹ 🏽 ‍ ♀ ️, womanbouncingballmediumskintone 
-🙇 🏿 ‍ ♀ ️, womanbowingdarkskintone 
-🙇 🏻 ‍ ♀ ️, womanbowinglightskintone 
-🙇 🏾 ‍ ♀ ️, womanbowingmediumdarkskintone 
-🙇 🏼 ‍ ♀ ️, womanbowingmediumlightskintone 
-🙇 🏽 ‍ ♀ ️, womanbowingmediumskintone 
-🤸 🏿 ‍ ♀ ️, womancartwheelingdarkskintone 
-🤸 🏻 ‍ ♀ ️, womancartwheelinglightskintone 
-🤸 🏾 ‍ ♀ ️, womancartwheelingmediumdarkskintone 
-🤸 🏼 ‍ ♀ ️, womancartwheelingmediumlightskintone 
-🤸 🏽 ‍ ♀ ️, womancartwheelingmediumskintone 
-👷 🏿 ‍ ♀ ️, womanconstructionworkerdarkskintone 
-👷 🏻 ‍ ♀ ️, womanconstructionworkerlightskintone 
-👷 🏾 ‍ ♀ ️, womanconstructionworkermediumdarkskintone 
-👷 🏼 ‍ ♀ ️, womanconstructionworkermediumlightskintone 
-👷 🏽 ‍ ♀ ️, womanconstructionworkermediumskintone 
-👩 🏿 ‍ 🍳, womancookdarkskintone 
-👩 🏻 ‍ 🍳, womancooklightskintone 
-👩 🏾 ‍ 🍳, womancookmediumdarkskintone 
-👩 🏼 ‍ 🍳, womancookmediumlightskintone 
-👩 🏽 ‍ 🍳, womancookmediumskintone 
-💃 🏿, womandancingdarkskintone 
-💃 🏻, womandancinglightskintone 
-💃 🏾, womandancingmediumdarkskintone 
-💃 🏼, womandancingmediumlightskintone 
-💃 🏽, womandancingmediumskintone 
-🕵 🏿 ‍ ♀ ️, womandetectivedarkskintone 
-🕵 🏻 ‍ ♀ ️, womandetectivelightskintone 
-🕵 🏾 ‍ ♀ ️, womandetectivemediumdarkskintone 
-🕵 🏼 ‍ ♀ ️, womandetectivemediumlightskintone 
-🕵 🏽 ‍ ♀ ️, womandetectivemediumskintone 
-🤦 🏿 ‍ ♀ ️, womanfacepalmingdarkskintone 
-🤦 🏻 ‍ ♀ ️, womanfacepalminglightskintone 
-🤦 🏾 ‍ ♀ ️, womanfacepalmingmediumdarkskintone 
-🤦 🏼 ‍ ♀ ️, womanfacepalmingmediumlightskintone 
-🤦 🏽 ‍ ♀ ️, womanfacepalmingmediumskintone 
-👩 🏿 ‍ 🏭, womanfactoryworkerdarkskintone 
-👩 🏻 ‍ 🏭, womanfactoryworkerlightskintone 
-👩 🏾 ‍ 🏭, womanfactoryworkermediumdarkskintone 
-👩 🏼 ‍ 🏭, womanfactoryworkermediumlightskintone 
-👩 🏽 ‍ 🏭, womanfactoryworkermediumskintone 
-👩 🏿 ‍ 🌾, womanfarmerdarkskintone 
-👩 🏻 ‍ 🌾, womanfarmerlightskintone 
-👩 🏾 ‍ 🌾, womanfarmermediumdarkskintone 
-👩 🏼 ‍ 🌾, womanfarmermediumlightskintone 
-👩 🏽 ‍ 🌾, womanfarmermediumskintone 
-👩 🏿 ‍ 🚒, womanfirefighterdarkskintone 
-👩 🏻 ‍ 🚒, womanfirefighterlightskintone 
-👩 🏾 ‍ 🚒, womanfirefightermediumdarkskintone 
-👩 🏼 ‍ 🚒, womanfirefightermediumlightskintone 
-👩 🏽 ‍ 🚒, womanfirefightermediumskintone 
-🙍 🏿 ‍ ♀ ️, womanfrowningdarkskintone 
-🙍 🏻 ‍ ♀ ️, womanfrowninglightskintone 
-🙍 🏾 ‍ ♀ ️, womanfrowningmediumdarkskintone 
-🙍 🏼 ‍ ♀ ️, womanfrowningmediumlightskintone 
-🙍 🏽 ‍ ♀ ️, womanfrowningmediumskintone 
-🙅 🏿 ‍ ♀ ️, womangesturingnodarkskintone 
-🙅 🏻 ‍ ♀ ️, womangesturingnolightskintone 
-🙅 🏾 ‍ ♀ ️, womangesturingnomediumdarkskintone 
-🙅 🏼 ‍ ♀ ️, womangesturingnomediumlightskintone 
-🙅 🏽 ‍ ♀ ️, womangesturingnomediumskintone 
-🙆 🏿 ‍ ♀ ️, womangesturingokdarkskintone 
-🙆 🏻 ‍ ♀ ️, womangesturingoklightskintone 
-🙆 🏾 ‍ ♀ ️, womangesturingokmediumdarkskintone 
-🙆 🏼 ‍ ♀ ️, womangesturingokmediumlightskintone 
-🙆 🏽 ‍ ♀ ️, womangesturingokmediumskintone 
-💇 🏿 ‍ ♀ ️, womangettinghaircutdarkskintone 
-💇 🏻 ‍ ♀ ️, womangettinghaircutlightskintone 
-💇 🏾 ‍ ♀ ️, womangettinghaircutmediumdarkskintone 
-💇 🏼 ‍ ♀ ️, womangettinghaircutmediumlightskintone 
-💇 🏽 ‍ ♀ ️, womangettinghaircutmediumskintone 
-💆 🏿 ‍ ♀ ️, womangettingmassagedarkskintone 
-💆 🏻 ‍ ♀ ️, womangettingmassagelightskintone 
-💆 🏾 ‍ ♀ ️, womangettingmassagemediumdarkskintone 
-💆 🏼 ‍ ♀ ️, womangettingmassagemediumlightskintone 
-💆 🏽 ‍ ♀ ️, womangettingmassagemediumskintone 
-🏌 🏿 ‍ ♀ ️, womangolfingdarkskintone 
-🏌 🏻 ‍ ♀ ️, womangolfinglightskintone 
-🏌 🏾 ‍ ♀ ️, womangolfingmediumdarkskintone 
-🏌 🏼 ‍ ♀ ️, womangolfingmediumlightskintone 
-🏌 🏽 ‍ ♀ ️, womangolfingmediumskintone 
-💂 🏿 ‍ ♀ ️, womanguarddarkskintone 
-💂 🏻 ‍ ♀ ️, womanguardlightskintone 
-💂 🏾 ‍ ♀ ️, womanguardmediumdarkskintone 
-💂 🏼 ‍ ♀ ️, womanguardmediumlightskintone 
-💂 🏽 ‍ ♀ ️, womanguardmediumskintone 
-👩 🏿 ‍ ⚕ ️, womanhealthworkerdarkskintone 
-👩 🏻 ‍ ⚕ ️, womanhealthworkerlightskintone 
-👩 🏾 ‍ ⚕ ️, womanhealthworkermediumdarkskintone 
-👩 🏼 ‍ ⚕ ️, womanhealthworkermediumlightskintone 
-👩 🏽 ‍ ⚕ ️, womanhealthworkermediumskintone 
-👩 🏿 ‍ ⚖ ️, womanjudgedarkskintone 
-👩 🏻 ‍ ⚖ ️, womanjudgelightskintone 
-👩 🏾 ‍ ⚖ ️, womanjudgemediumdarkskintone 
-👩 🏼 ‍ ⚖ ️, womanjudgemediumlightskintone 
-👩 🏽 ‍ ⚖ ️, womanjudgemediumskintone 
-🤹 🏿 ‍ ♀ ️, womanjugglingdarkskintone 
-🤹 🏻 ‍ ♀ ️, womanjugglinglightskintone 
-🤹 🏾 ‍ ♀ ️, womanjugglingmediumdarkskintone 
-🤹 🏼 ‍ ♀ ️, womanjugglingmediumlightskintone 
-🤹 🏽 ‍ ♀ ️, womanjugglingmediumskintone 
-🏋 🏿 ‍ ♀ ️, womanliftingweightsdarkskintone 
-🏋 🏻 ‍ ♀ ️, womanliftingweightslightskintone 
-🏋 🏾 ‍ ♀ ️, womanliftingweightsmediumdarkskintone 
-🏋 🏼 ‍ ♀ ️, womanliftingweightsmediumlightskintone 
-🏋 🏽 ‍ ♀ ️, womanliftingweightsmediumskintone 
-👩 🏿 ‍ 🔧, womanmechanicdarkskintone 
-👩 🏻 ‍ 🔧, womanmechaniclightskintone 
-👩 🏾 ‍ 🔧, womanmechanicmediumdarkskintone 
-👩 🏼 ‍ 🔧, womanmechanicmediumlightskintone 
-👩 🏽 ‍ 🔧, womanmechanicmediumskintone 
-🚵 🏿 ‍ ♀ ️, womanmountainbikingdarkskintone 
-🚵 🏻 ‍ ♀ ️, womanmountainbikinglightskintone 
-🚵 🏾 ‍ ♀ ️, womanmountainbikingmediumdarkskintone 
-🚵 🏼 ‍ ♀ ️, womanmountainbikingmediumlightskintone 
-🚵 🏽 ‍ ♀ ️, womanmountainbikingmediumskintone 
-👩 🏿 ‍ 💼, womanofficeworkerdarkskintone 
-👩 🏻 ‍ 💼, womanofficeworkerlightskintone 
-👩 🏾 ‍ 💼, womanofficeworkermediumdarkskintone 
-👩 🏼 ‍ 💼, womanofficeworkermediumlightskintone 
-👩 🏽 ‍ 💼, womanofficeworkermediumskintone 
-👩 🏿 ‍ ✈ ️, womanpilotdarkskintone 
-👩 🏻 ‍ ✈ ️, womanpilotlightskintone 
-👩 🏾 ‍ ✈ ️, womanpilotmediumdarkskintone 
-👩 🏼 ‍ ✈ ️, womanpilotmediumlightskintone 
-👩 🏽 ‍ ✈ ️, womanpilotmediumskintone 
-🤾 🏿 ‍ ♀ ️, womanplayinghandballdarkskintone 
-🤾 🏻 ‍ ♀ ️, womanplayinghandballlightskintone 
-🤾 🏾 ‍ ♀ ️, womanplayinghandballmediumdarkskintone 
-🤾 🏼 ‍ ♀ ️, womanplayinghandballmediumlightskintone 
-🤾 🏽 ‍ ♀ ️, womanplayinghandballmediumskintone 
-🤽 🏿 ‍ ♀ ️, womanplayingwaterpolodarkskintone 
-🤽 🏻 ‍ ♀ ️, womanplayingwaterpololightskintone 
-🤽 🏾 ‍ ♀ ️, womanplayingwaterpolomediumdarkskintone 
-🤽 🏼 ‍ ♀ ️, womanplayingwaterpolomediumlightskintone 
-🤽 🏽 ‍ ♀ ️, womanplayingwaterpolomediumskintone 
-👮 🏿 ‍ ♀ ️, womanpoliceofficerdarkskintone 
-👮 🏻 ‍ ♀ ️, womanpoliceofficerlightskintone 
-👮 🏾 ‍ ♀ ️, womanpoliceofficermediumdarkskintone 
-👮 🏼 ‍ ♀ ️, womanpoliceofficermediumlightskintone 
-👮 🏽 ‍ ♀ ️, womanpoliceofficermediumskintone 
-🙎 🏿 ‍ ♀ ️, womanpoutingdarkskintone 
-🙎 🏻 ‍ ♀ ️, womanpoutinglightskintone 
-🙎 🏾 ‍ ♀ ️, womanpoutingmediumdarkskintone 
-🙎 🏼 ‍ ♀ ️, womanpoutingmediumlightskintone 
-🙎 🏽 ‍ ♀ ️, womanpoutingmediumskintone 
-🙋 🏿 ‍ ♀ ️, womanraisinghanddarkskintone 
-🙋 🏻 ‍ ♀ ️, womanraisinghandlightskintone 
-🙋 🏾 ‍ ♀ ️, womanraisinghandmediumdarkskintone 
-🙋 🏼 ‍ ♀ ️, womanraisinghandmediumlightskintone 
-🙋 🏽 ‍ ♀ ️, womanraisinghandmediumskintone 
-🚣 🏿 ‍ ♀ ️, womanrowingboatdarkskintone 
-🚣 🏻 ‍ ♀ ️, womanrowingboatlightskintone 
-🚣 🏾 ‍ ♀ ️, womanrowingboatmediumdarkskintone 
-🚣 🏼 ‍ ♀ ️, womanrowingboatmediumlightskintone 
-🚣 🏽 ‍ ♀ ️, womanrowingboatmediumskintone 
-🏃 🏿 ‍ ♀ ️, womanrunningdarkskintone 
-🏃 🏻 ‍ ♀ ️, womanrunninglightskintone 
-🏃 🏾 ‍ ♀ ️, womanrunningmediumdarkskintone 
-🏃 🏼 ‍ ♀ ️, womanrunningmediumlightskintone 
-🏃 🏽 ‍ ♀ ️, womanrunningmediumskintone 
-👩 🏿 ‍ 🔬, womanscientistdarkskintone 
-👩 🏻 ‍ 🔬, womanscientistlightskintone 
-👩 🏾 ‍ 🔬, womanscientistmediumdarkskintone 
-👩 🏼 ‍ 🔬, womanscientistmediumlightskintone 
-👩 🏽 ‍ 🔬, womanscientistmediumskintone 
-🤷 🏿 ‍ ♀ ️, womanshruggingdarkskintone 
-🤷 🏻 ‍ ♀ ️, womanshrugginglightskintone 
-🤷 🏾 ‍ ♀ ️, womanshruggingmediumdarkskintone 
-🤷 🏼 ‍ ♀ ️, womanshruggingmediumlightskintone 
-🤷 🏽 ‍ ♀ ️, womanshruggingmediumskintone 
-👩 🏿 ‍ 🎤, womansingerdarkskintone 
-👩 🏻 ‍ 🎤, womansingerlightskintone 
-👩 🏾 ‍ 🎤, womansingermediumdarkskintone 
-👩 🏼 ‍ 🎤, womansingermediumlightskintone 
-👩 🏽 ‍ 🎤, womansingermediumskintone 
-👩 🏿 ‍ 🎓, womanstudentdarkskintone 
-👩 🏻 ‍ 🎓, womanstudentlightskintone 
-👩 🏾 ‍ 🎓, womanstudentmediumdarkskintone 
-👩 🏼 ‍ 🎓, womanstudentmediumlightskintone 
-👩 🏽 ‍ 🎓, womanstudentmediumskintone 
-🏄 🏿 ‍ ♀ ️, womansurfingdarkskintone 
-🏄 🏻 ‍ ♀ ️, womansurfinglightskintone 
-🏄 🏾 ‍ ♀ ️, womansurfingmediumdarkskintone 
-🏄 🏼 ‍ ♀ ️, womansurfingmediumlightskintone 
-🏄 🏽 ‍ ♀ ️, womansurfingmediumskintone 
-🏊 🏿 ‍ ♀ ️, womanswimmingdarkskintone 
-🏊 🏻 ‍ ♀ ️, womanswimminglightskintone 
-🏊 🏾 ‍ ♀ ️, womanswimmingmediumdarkskintone 
-🏊 🏼 ‍ ♀ ️, womanswimmingmediumlightskintone 
-🏊 🏽 ‍ ♀ ️, womanswimmingmediumskintone 
-👩 🏿 ‍ 🏫, womanteacherdarkskintone 
-👩 🏻 ‍ 🏫, womanteacherlightskintone 
-👩 🏾 ‍ 🏫, womanteachermediumdarkskintone 
-👩 🏼 ‍ 🏫, womanteachermediumlightskintone 
-👩 🏽 ‍ 🏫, womanteachermediumskintone 
-👩 🏿 ‍ 💻, womantechnologistdarkskintone 
-👩 🏻 ‍ 💻, womantechnologistlightskintone 
-👩 🏾 ‍ 💻, womantechnologistmediumdarkskintone 
-👩 🏼 ‍ 💻, womantechnologistmediumlightskintone 
-👩 🏽 ‍ 💻, womantechnologistmediumskintone 
-💁 🏿 ‍ ♀ ️, womantippinghanddarkskintone 
-💁 🏻 ‍ ♀ ️, womantippinghandlightskintone 
-💁 🏾 ‍ ♀ ️, womantippinghandmediumdarkskintone 
-💁 🏼 ‍ ♀ ️, womantippinghandmediumlightskintone 
-💁 🏽 ‍ ♀ ️, womantippinghandmediumskintone 
-🚶 🏿 ‍ ♀ ️, womanwalkingdarkskintone 
-🚶 🏻 ‍ ♀ ️, womanwalkinglightskintone 
-🚶 🏾 ‍ ♀ ️, womanwalkingmediumdarkskintone 
-🚶 🏼 ‍ ♀ ️, womanwalkingmediumlightskintone 
-🚶 🏽 ‍ ♀ ️, womanwalkingmediumskintone 
-👳 🏿 ‍ ♀ ️, womanwearingturbandarkskintone 
-👳 🏻 ‍ ♀ ️, womanwearingturbanlightskintone 
-👳 🏾 ‍ ♀ ️, womanwearingturbanmediumdarkskintone 
-👳 🏼 ‍ ♀ ️, womanwearingturbanmediumlightskintone 
-👳 🏽 ‍ ♀ ️, womanwearingturbanmediumskintone 
 👩 ‍ 🏫, womanteacher 
-🙋 ‍ ♀ ️, womanraisinghand 
-🚣 ‍ ♀ ️, womanrowingboat 
-🏃 ‍ ♀ ️, womanrunning 
 👩 ‍ 🔬, womanscientist 
-🤷 ‍ ♀ ️, womanshrugging 
 👩 ‍ 🎤, womansinger 
 👩 ‍ 🎓, womanstudent 
-🏄 ‍ ♀ ️, womansurfing 
-🏊 ‍ ♀ ️, womanswimming 
 👩 ‍ 💻, womantechnologist 
 👩 ‍ 🎨, womanartist 
-🚴 ‍ ♀ ️, womanbiking 
-💁 ‍ ♀ ️, womantippinghand 
-⛹ ️ ‍ ♀ ️, womanbouncingball 
-🙇 ‍ ♀ ️, womanbowing 
-🚶 ‍ ♀ ️, womanwalking 
-🤸 ‍ ♀ ️, womancartwheeling 
-👷 ‍ ♀ ️, womanconstructionworker 
 👩 ‍ 🍳, womancook 
 💃, womandancing 
 👩 ‍ 🚀, womanastronaut 
-👳 ‍ ♀ ️, womanwearingturban 
-👩 🏿, womandarkskintone 
-🕵 ️ ‍ ♀ ️, womandetective 
-🤦 ‍ ♀ ️, womanfacepalming 
 👩 ‍ 🏭, womanfactoryworker 
 👩 ‍ 🌾, womanfarmer 
 👩 ‍ 🚒, womanfirefighter 
-🙍 ‍ ♀ ️, womanfrowning 
-🙅 ‍ ♀ ️, womangesturingno 
-🙆 ‍ ♀ ️, womangesturingok 
-💇 ‍ ♀ ️, womangettinghaircut 
-💆 ‍ ♀ ️, womangettingmassage 
-🏌 ️ ‍ ♀ ️, womangolfing 
 👩 ‍ ⚕ ️, womanhealthworker 
-💂 ‍ ♀ ️, womanguard 
-🏋 ️ ‍ ♀ ️, womanliftingweights 
-🤹 ‍ ♀ ️, womanjuggling 
 👩 ‍ ⚖ ️, womanjudge 
-👩 🏻, womanlightskintone 
 👩 ‍ 🔧, womanmechanic 
-🚵 ‍ ♀ ️, womanmountainbiking 
 👩 ‍ 💼, womanofficeworker 
 👩 ‍ ✈ ️, womanpilot 
-🤾 ‍ ♀ ️, womanplayinghandball 
-🤽 ‍ ♀ ️, womanplayingwaterpolo 
-👮 ‍ ♀ ️, womanpoliceofficer 
-🙎 ‍ ♀ ️, womanpouting 
-👩 🏾, womanmediumdarkskintone 
-👩 🏼, womanmediumlightskintone 
-👩 🏽, womanmediumskintone 
-🚴 🏿, personbikingdarkskintone 
-🚴 🏻, personbikinglightskintone 
-🚴 🏾, personbikingmediumdarkskintone 
-🚴 🏼, personbikingmediumlightskintone 
-🚴 🏽, personbikingmediumskintone 
-⛹ 🏿, personbouncingballdarkskintone 
-⛹ 🏻, personbouncingballlightskintone 
-⛹ 🏾, personbouncingballmediumdarkskintone 
-⛹ 🏼, personbouncingballmediumlightskintone 
-⛹ 🏽, personbouncingballmediumskintone 
-🙇 🏿, personbowingdarkskintone 
-🙇 🏻, personbowinglightskintone 
-🙇 🏾, personbowingmediumdarkskintone 
-🙇 🏼, personbowingmediumlightskintone 
-🙇 🏽, personbowingmediumskintone 
-🤸 🏿, personcartwheelingdarkskintone 
-🤸 🏻, personcartwheelinglightskintone 
-🤸 🏾, personcartwheelingmediumdarkskintone 
-🤸 🏼, personcartwheelingmediumlightskintone 
-🤸 🏽, personcartwheelingmediumskintone 
-🤦 🏿, personfacepalmingdarkskintone 
-🤦 🏻, personfacepalminglightskintone 
-🤦 🏾, personfacepalmingmediumdarkskintone 
-🤦 🏼, personfacepalmingmediumlightskintone 
-🤦 🏽, personfacepalmingmediumskintone 
-🙍 🏿, personfrowningdarkskintone 
-🙍 🏻, personfrowninglightskintone 
-🙍 🏾, personfrowningmediumdarkskintone 
-🙍 🏼, personfrowningmediumlightskintone 
-🙍 🏽, personfrowningmediumskintone 
-🙅 🏿, persongesturingnodarkskintone 
-🙅 🏻, persongesturingnolightskintone 
-🙅 🏾, persongesturingnomediumdarkskintone 
-🙅 🏼, persongesturingnomediumlightskintone 
-🙅 🏽, persongesturingnomediumskintone 
-🙆 🏿, persongesturingokdarkskintone 
-🙆 🏻, persongesturingoklightskintone 
-🙆 🏾, persongesturingokmediumdarkskintone 
-🙆 🏼, persongesturingokmediumlightskintone 
-🙆 🏽, persongesturingokmediumskintone 
-💇 🏿, persongettinghaircutdarkskintone 
-💇 🏻, persongettinghaircutlightskintone 
-💇 🏾, persongettinghaircutmediumdarkskintone 
-💇 🏼, persongettinghaircutmediumlightskintone 
-💇 🏽, persongettinghaircutmediumskintone 
-💆 🏿, persongettingmassagedarkskintone 
-💆 🏻, persongettingmassagelightskintone 
-💆 🏾, persongettingmassagemediumdarkskintone 
-💆 🏼, persongettingmassagemediumlightskintone 
-💆 🏽, persongettingmassagemediumskintone 
-🏌 🏿, persongolfingdarkskintone 
-🏌 🏻, persongolfinglightskintone 
-🏌 🏾, persongolfingmediumdarkskintone 
-🏌 🏼, persongolfingmediumlightskintone 
-🏌 🏽, persongolfingmediumskintone 
-🛌 🏿, personinbeddarkskintone 
-🛌 🏻, personinbedlightskintone 
-🛌 🏾, personinbedmediumdarkskintone 
-🛌 🏼, personinbedmediumlightskintone 
-🛌 🏽, personinbedmediumskintone 
-🤹 🏿, personjugglingdarkskintone 
-🤹 🏻, personjugglinglightskintone 
-🤹 🏾, personjugglingmediumdarkskintone 
-🤹 🏼, personjugglingmediumlightskintone 
-🤹 🏽, personjugglingmediumskintone 
-🏋 🏿, personliftingweightsdarkskintone 
-🏋 🏻, personliftingweightslightskintone 
-🏋 🏾, personliftingweightsmediumdarkskintone 
-🏋 🏼, personliftingweightsmediumlightskintone 
-🏋 🏽, personliftingweightsmediumskintone 
-🚵 🏿, personmountainbikingdarkskintone 
-🚵 🏻, personmountainbikinglightskintone 
-🚵 🏾, personmountainbikingmediumdarkskintone 
-🚵 🏼, personmountainbikingmediumlightskintone 
-🚵 🏽, personmountainbikingmediumskintone 
-🤾 🏿, personplayinghandballdarkskintone 
-🤾 🏻, personplayinghandballlightskintone 
-🤾 🏾, personplayinghandballmediumdarkskintone 
-🤾 🏼, personplayinghandballmediumlightskintone 
-🤾 🏽, personplayinghandballmediumskintone 
-🤽 🏿, personplayingwaterpolodarkskintone 
-🤽 🏻, personplayingwaterpololightskintone 
-🤽 🏾, personplayingwaterpolomediumdarkskintone 
-🤽 🏼, personplayingwaterpolomediumlightskintone 
-🤽 🏽, personplayingwaterpolomediumskintone 
-🙎 🏿, personpoutingdarkskintone 
-🙎 🏻, personpoutinglightskintone 
-🙎 🏾, personpoutingmediumdarkskintone 
-🙎 🏼, personpoutingmediumlightskintone 
-🙎 🏽, personpoutingmediumskintone 
-🙋 🏿, personraisinghanddarkskintone 
-🙋 🏻, personraisinghandlightskintone 
-🙋 🏾, personraisinghandmediumdarkskintone 
-🙋 🏼, personraisinghandmediumlightskintone 
-🙋 🏽, personraisinghandmediumskintone 
-🚣 🏿, personrowingboatdarkskintone 
-🚣 🏻, personrowingboatlightskintone 
-🚣 🏾, personrowingboatmediumdarkskintone 
-🚣 🏼, personrowingboatmediumlightskintone 
-🚣 🏽, personrowingboatmediumskintone 
-🏃 🏿, personrunningdarkskintone 
-🏃 🏻, personrunninglightskintone 
-🏃 🏾, personrunningmediumdarkskintone 
-🏃 🏼, personrunningmediumlightskintone 
-🏃 🏽, personrunningmediumskintone 
-🤷 🏿, personshruggingdarkskintone 
-🤷 🏻, personshrugginglightskintone 
-🤷 🏾, personshruggingmediumdarkskintone 
-🤷 🏼, personshruggingmediumlightskintone 
-🤷 🏽, personshruggingmediumskintone 
-🏄 🏿, personsurfingdarkskintone 
-🏄 🏻, personsurfinglightskintone 
-🏄 🏾, personsurfingmediumdarkskintone 
-🏄 🏼, personsurfingmediumlightskintone 
-🏄 🏽, personsurfingmediumskintone 
-🏊 🏿, personswimmingdarkskintone 
-🏊 🏻, personswimminglightskintone 
-🏊 🏾, personswimmingmediumdarkskintone 
-🏊 🏼, personswimmingmediumlightskintone 
-🏊 🏽, personswimmingmediumskintone 
-🛀 🏿, persontakingbathdarkskintone 
-🛀 🏻, persontakingbathlightskintone 
-🛀 🏾, persontakingbathmediumdarkskintone 
-🛀 🏼, persontakingbathmediumlightskintone 
-🛀 🏽, persontakingbathmediumskintone 
-💁 🏿, persontippinghanddarkskintone 
-💁 🏻, persontippinghandlightskintone 
-💁 🏾, persontippinghandmediumdarkskintone 
-💁 🏼, persontippinghandmediumlightskintone 
-💁 🏽, persontippinghandmediumskintone 
-🚶 🏿, personwalkingdarkskintone 
-🚶 🏻, personwalkinglightskintone 
-🚶 🏾, personwalkingmediumdarkskintone 
-🚶 🏼, personwalkingmediumlightskintone 
-🚶 🏽, personwalkingmediumskintone 
-👳 🏿, personwearingturbandarkskintone 
-👳 🏻, personwearingturbanlightskintone 
-👳 🏾, personwearingturbanmediumdarkskintone 
-👳 🏼, personwearingturbanmediumlightskintone 
-👳 🏽, personwearingturbanmediumskintone 
 🤸, personcartwheeling 
 👳, personwearingturban 
 🚶, personwalking 
@@ -1101,8 +391,6 @@ unicode_emote,text
 👚, womansclothes 
 👒, womanshat 
 👡, womanssandal 
-👯 ‍ ♀ ️, womenwithbunnyearspartying 
-🤼 ‍ ♀ ️, womenwrestling 
 👩, woman 
 🎟, admissiontickets 
 🚡, aerialtramway 
@@ -1130,41 +418,11 @@ unicode_emote,text
 ⚛, atomsymbol 
 🚗, automobile 
 🥑, avocado 
-👶 🏿, babydarkskintone 
-👶 🏻, babylightskintone 
-👶 🏾, babymediumdarkskintone 
-👶 🏼, babymediumlightskintone 
-👶 🏽, babymediumskintone 
 👶, baby 
-👼 🏿, babyangeldarkskintone 
-👼 🏻, babyangellightskintone 
-👼 🏾, babyangelmediumdarkskintone 
-👼 🏼, babyangelmediumlightskintone 
-👼 🏽, babyangelmediumskintone 
 👼, babyangel 
 🍼, babybottle 
 🐤, babychick 
 🚼, babysymbol 
-👇 🏿, backhandindexpointingdowndarkskintone 
-👇 🏻, backhandindexpointingdownlightskintone 
-👇 🏾, backhandindexpointingdownmediumdarkskintone 
-👇 🏼, backhandindexpointingdownmediumlightskintone 
-👇 🏽, backhandindexpointingdownmediumskintone 
-👈 🏿, backhandindexpointingleftdarkskintone 
-👈 🏻, backhandindexpointingleftlightskintone 
-👈 🏾, backhandindexpointingleftmediumdarkskintone 
-👈 🏼, backhandindexpointingleftmediumlightskintone 
-👈 🏽, backhandindexpointingleftmediumskintone 
-👉 🏿, backhandindexpointingrightdarkskintone 
-👉 🏻, backhandindexpointingrightlightskintone 
-👉 🏾, backhandindexpointingrightmediumdarkskintone 
-👉 🏼, backhandindexpointingrightmediumlightskintone 
-👉 🏽, backhandindexpointingrightmediumskintone 
-👆 🏿, backhandindexpointingupdarkskintone 
-👆 🏻, backhandindexpointinguplightskintone 
-👆 🏾, backhandindexpointingupmediumdarkskintone 
-👆 🏼, backhandindexpointingupmediumlightskintone 
-👆 🏽, backhandindexpointingupmediumskintone 
 👇, backhandindexpointingdown 
 👈, backhandindexpointingleft 
 👉, backhandindexpointingright 
@@ -1209,24 +467,7 @@ unicode_emote,text
 ✒, blacknib 
 ▪, blacksmallsquare 
 🔲, blacksquarebutton 
-👱 🏿 ‍ ♂ ️, blondhairedmandarkskintone 
-👱 🏻 ‍ ♂ ️, blondhairedmanlightskintone 
-👱 🏾 ‍ ♂ ️, blondhairedmanmediumdarkskintone 
-👱 🏼 ‍ ♂ ️, blondhairedmanmediumlightskintone 
-👱 🏽 ‍ ♂ ️, blondhairedmanmediumskintone 
-👱 ‍ ♂ ️, blondhairedman 
-👱 🏿, blondhairedpersondarkskintone 
-👱 🏻, blondhairedpersonlightskintone 
-👱 🏾, blondhairedpersonmediumdarkskintone 
-👱 🏼, blondhairedpersonmediumlightskintone 
-👱 🏽, blondhairedpersonmediumskintone 
 👱, blondhairedperson 
-👱 🏿 ‍ ♀ ️, blondhairedwomandarkskintone 
-👱 🏻 ‍ ♀ ️, blondhairedwomanlightskintone 
-👱 🏾 ‍ ♀ ️, blondhairedwomanmediumdarkskintone 
-👱 🏼 ‍ ♀ ️, blondhairedwomanmediumlightskintone 
-👱 🏽 ‍ ♀ ️, blondhairedwomanmediumskintone 
-👱 ‍ ♀ ️, blondhairedwoman 
 🌼, blossom 
 🐡, blowfish 
 📘, bluebook 
@@ -1242,18 +483,8 @@ unicode_emote,text
 🏹, bowandarrow 
 🎳, bowling 
 🥊, boxingglove 
-👦 🏿, boydarkskintone 
-👦 🏻, boylightskintone 
-👦 🏾, boymediumdarkskintone 
-👦 🏼, boymediumlightskintone 
-👦 🏽, boymediumskintone 
 👦, boy 
 🍞, bread 
-👰 🏿, bridewithveildarkskintone 
-👰 🏻, bridewithveillightskintone 
-👰 🏾, bridewithveilmediumdarkskintone 
-👰 🏼, bridewithveilmediumlightskintone 
-👰 🏽, bridewithveilmediumskintone 
 👰, bridewithveil 
 🌉, bridgeatnight 
 💼, briefcase 
@@ -1269,11 +500,6 @@ unicode_emote,text
 🦋, butterfly 
 🌵, cactus 
 📅, calendar 
-🤙 🏿, callmehanddarkskintone 
-🤙 🏻, callmehandlightskintone 
-🤙 🏾, callmehandmediumdarkskintone 
-🤙 🏼, callmehandmediumlightskintone 
-🤙 🏽, callmehandmediumskintone 
 🤙, callmehand 
 🐪, camel 
 📷, camera 
@@ -1315,11 +541,6 @@ unicode_emote,text
 🌆, cityscapeatdusk 
 🗜, clamp 
 🎬, clapperboard 
-👏 🏿, clappinghandsdarkskintone 
-👏 🏻, clappinghandslightskintone 
-👏 🏾, clappinghandsmediumdarkskintone 
-👏 🏼, clappinghandsmediumlightskintone 
-👏 🏽, clappinghandsmediumskintone 
 👏, clappinghands 
 🏛, classicalbuilding 
 🍻, clinkingbeermugs 
@@ -1348,11 +569,6 @@ unicode_emote,text
 😖, confoundedface 
 😕, confusedface 
 🚧, construction 
-👷 🏿, constructionworkerdarkskintone 
-👷 🏻, constructionworkerlightskintone 
-👷 🏾, constructionworkermediumdarkskintone 
-👷 🏼, constructionworkermediumlightskintone 
-👷 🏽, constructionworkermediumskintone 
 👷, constructionworker 
 🎛, controlknobs 
 🏪, conveniencestore 
@@ -1377,11 +593,6 @@ unicode_emote,text
 🥐, croissant 
 ❌, crossmark 
 ❎, crossmarkbutton 
-🤞 🏿, crossedfingersdarkskintone 
-🤞 🏻, crossedfingerslightskintone 
-🤞 🏾, crossedfingersmediumdarkskintone 
-🤞 🏼, crossedfingersmediumlightskintone 
-🤞 🏽, crossedfingersmediumskintone 
 🤞, crossedfingers 
 🎌, crossedflags 
 ⚔, crossedswords 
@@ -1407,11 +618,6 @@ unicode_emote,text
 🏜, desert 
 🏝, desertisland 
 🖥, desktopcomputer 
-🕵 🏿, detectivedarkskintone 
-🕵 🏻, detectivelightskintone 
-🕵 🏾, detectivemediumdarkskintone 
-🕵 🏼, detectivemediumlightskintone 
-🕵 🏽, detectivemediumskintone 
 🕵, detective 
 ♦, diamondsuit 
 💠, diamondwithadot 
@@ -1445,11 +651,6 @@ unicode_emote,text
 📀, dvd 
 📧, email 
 🦅, eagle 
-👂 🏿, eardarkskintone 
-👂 🏻, earlightskintone 
-👂 🏾, earmediumdarkskintone 
-👂 🏼, earmediumlightskintone 
-👂 🏽, earmediumskintone 
 👂, ear 
 🌽, earofcorn 
 🥚, egg 
@@ -1492,31 +693,6 @@ unicode_emote,text
 🏭, factory 
 🍂, fallenleaf 
 👪, family 
-👨 ‍ 👦 ‍ 👦, familymanboyboy 
-👨 ‍ 👦, familymanboy 
-👨 ‍ 👧, familymangirl 
-👨 ‍ 👧 ‍ 👦, familymangirlboy 
-👨 ‍ 👧 ‍ 👧, familymangirlgirl 
-👨 ‍ 👨 ‍ 👦, familymanmanboy 
-👨 ‍ 👨 ‍ 👦 ‍ 👦, familymanmanboyboy 
-👨 ‍ 👨 ‍ 👧, familymanmangirl 
-👨 ‍ 👨 ‍ 👧 ‍ 👦, familymanmangirlboy 
-👨 ‍ 👨 ‍ 👧 ‍ 👧, familymanmangirlgirl 
-👨 ‍ 👩 ‍ 👦, familymanwomanboy 
-👨 ‍ 👩 ‍ 👦 ‍ 👦, familymanwomanboyboy 
-👨 ‍ 👩 ‍ 👧, familymanwomangirl 
-👨 ‍ 👩 ‍ 👧 ‍ 👦, familymanwomangirlboy 
-👨 ‍ 👩 ‍ 👧 ‍ 👧, familymanwomangirlgirl 
-👩 ‍ 👦, familywomanboy 
-👩 ‍ 👦 ‍ 👦, familywomanboyboy 
-👩 ‍ 👧, familywomangirl 
-👩 ‍ 👧 ‍ 👦, familywomangirlboy 
-👩 ‍ 👧 ‍ 👧, familywomangirlgirl 
-👩 ‍ 👩 ‍ 👦, familywomanwomanboy 
-👩 ‍ 👩 ‍ 👦 ‍ 👦, familywomanwomanboyboy 
-👩 ‍ 👩 ‍ 👧, familywomanwomangirl 
-👩 ‍ 👩 ‍ 👧 ‍ 👦, familywomanwomangirlboy 
-👩 ‍ 👩 ‍ 👧 ‍ 👧, familywomanwomangirlgirl 
 ⏩, fastforwardbutton 
 ⏬, fastdownbutton 
 ⏪, fastreversebutton 
@@ -1543,22 +719,12 @@ unicode_emote,text
 ⛳, flaginhole 
 🔦, flashlight 
 ⚜, fleurdelis 
-💪 🏿, flexedbicepsdarkskintone 
-💪 🏻, flexedbicepslightskintone 
-💪 🏾, flexedbicepsmediumdarkskintone 
-💪 🏼, flexedbicepsmediumlightskintone 
-💪 🏽, flexedbicepsmediumskintone 
 💪, flexedbiceps 
 💾, floppydisk 
 🎴, flowerplayingcards 
 😳, flushedface 
 🌫, fog 
 🌁, foggy 
-🙏 🏿, foldedhandsdarkskintone 
-🙏 🏻, foldedhandslightskintone 
-🙏 🏾, foldedhandsmediumdarkskintone 
-🙏 🏼, foldedhandsmediumlightskintone 
-🙏 🏽, foldedhandsmediumskintone 
 🙏, foldedhands 
 👣, footprints 
 🍴, forkandknife 
@@ -1584,11 +750,6 @@ unicode_emote,text
 ⚙, gear 
 💎, gemstone 
 👻, ghost 
-👧 🏿, girldarkskintone 
-👧 🏻, girllightskintone 
-👧 🏾, girlmediumdarkskintone 
-👧 🏼, girlmediumlightskintone 
-👧 🏽, girlmediumskintone 
 👧, girl 
 🥛, glassofmilk 
 👓, glasses 
@@ -1612,11 +773,6 @@ unicode_emote,text
 😀, grinningface 
 😁, grinningfacewithsmilingeyes 
 💗, growingheart 
-💂 🏿, guarddarkskintone 
-💂 🏻, guardlightskintone 
-💂 🏾, guardmediumdarkskintone 
-💂 🏼, guardmediumlightskintone 
-💂 🏽, guardmediumskintone 
 💂, guard 
 🎸, guitar 
 🍔, hamburger 
@@ -1654,11 +810,6 @@ unicode_emote,text
 🚥, horizontaltrafficlight 
 🐎, horse 
 🐴, horseface 
-🏇 🏿, horseracingdarkskintone 
-🏇 🏻, horseracinglightskintone 
-🏇 🏾, horseracingmediumdarkskintone 
-🏇 🏼, horseracingmediumlightskintone 
-🏇 🏽, horseracingmediumskintone 
 🏇, horseracing 
 🏥, hospital 
 ☕, hotbeverage 
@@ -1678,11 +829,6 @@ unicode_emote,text
 ⛸, iceskate 
 📥, inboxtray 
 📨, incomingenvelope 
-☝ 🏿, indexpointingupdarkskintone 
-☝ 🏻, indexpointinguplightskintone 
-☝ 🏾, indexpointingupmediumdarkskintone 
-☝ 🏼, indexpointingupmediumlightskintone 
-☝ 🏽, indexpointingupmediumskintone 
 ☝, indexpointingup 
 ℹ, information 
 🔤, inputlatinletters 
@@ -1735,11 +881,6 @@ unicode_emote,text
 ✝, latincross 
 🍃, leafflutteringinwind 
 📒, ledger 
-🤛 🏿, leftfacingfistdarkskintone 
-🤛 🏻, leftfacingfistlightskintone 
-🤛 🏾, leftfacingfistmediumdarkskintone 
-🤛 🏼, leftfacingfistmediumlightskintone 
-🤛 🏽, leftfacingfistmediumskintone 
 🤛, leftfacingfist 
 🔍, leftpointingmagnifyingglass 
 ↔, leftrightarrow 
@@ -1780,18 +921,11 @@ unicode_emote,text
 📣, megaphone 
 🍈, melon 
 📝, memo 
-👯 ‍ ♂ ️, menwithbunnyearspartying 
-🤼 ‍ ♂ ️, menwrestling 
 🕎, menorah 
 🚹, mensroom 
 🚇, metro 
 🎤, microphone 
 🔬, microscope 
-🖕 🏿, middlefingerdarkskintone 
-🖕 🏻, middlefingerlightskintone 
-🖕 🏾, middlefingermediumdarkskintone 
-🖕 🏼, middlefingermediumlightskintone 
-🖕 🏽, middlefingermediumskintone 
 🖕, middlefinger 
 🎖, militarymedal 
 🌌, milkyway 
@@ -1826,11 +960,6 @@ unicode_emote,text
 🎶, musicalnotes 
 🎼, musicalscore 
 🔇, mutedspeaker 
-💅 🏿, nailpolishdarkskintone 
-💅 🏻, nailpolishlightskintone 
-💅 🏾, nailpolishmediumdarkskintone 
-💅 🏼, nailpolishmediumlightskintone 
-💅 🏽, nailpolishmediumskintone 
 💅, nailpolish 
 📛, namebadge 
 🏞, nationalpark 
@@ -1853,11 +982,6 @@ unicode_emote,text
 🚷, nopedestrians 
 🚭, nosmoking 
 🚱, nonpotablewater 
-👃 🏿, nosedarkskintone 
-👃 🏻, noselightskintone 
-👃 🏾, nosemediumdarkskintone 
-👃 🏼, nosemediumlightskintone 
-👃 🏽, nosemediumskintone 
 👃, nose 
 📓, notebook 
 📔, notebookwithdecorativecover 
@@ -1868,26 +992,11 @@ unicode_emote,text
 👹, ogre 
 🛢, oildrum 
 🗝, oldkey 
-👴 🏿, oldmandarkskintone 
-👴 🏻, oldmanlightskintone 
-👴 🏾, oldmanmediumdarkskintone 
-👴 🏼, oldmanmediumlightskintone 
-👴 🏽, oldmanmediumskintone 
 👴, oldman 
-👵 🏿, oldwomandarkskintone 
-👵 🏻, oldwomanlightskintone 
-👵 🏾, oldwomanmediumdarkskintone 
-👵 🏼, oldwomanmediumlightskintone 
-👵 🏽, oldwomanmediumskintone 
 👵, oldwoman 
 🕉, om 
 🚘, oncomingautomobile 
 🚍, oncomingbus 
-👊 🏿, oncomingfistdarkskintone 
-👊 🏻, oncomingfistlightskintone 
-👊 🏾, oncomingfistmediumdarkskintone 
-👊 🏼, oncomingfistmediumlightskintone 
-👊 🏽, oncomingfistmediumskintone 
 👊, oncomingfist 
 🚔, oncomingpolicecar 
 🚖, oncomingtaxi 
@@ -1895,11 +1004,6 @@ unicode_emote,text
 🕐, oneoclock 
 📖, openbook 
 📂, openfilefolder 
-👐 🏿, openhandsdarkskintone 
-👐 🏻, openhandslightskintone 
-👐 🏾, openhandsmediumdarkskintone 
-👐 🏼, openhandsmediumlightskintone 
-👐 🏽, openhandsmediumskintone 
 👐, openhands 
 📭, openmailboxwithloweredflag 
 📬, openmailboxwithraisedflag 
@@ -1952,11 +1056,6 @@ unicode_emote,text
 ⏯, playorpausebutton 
 🚓, policecar 
 🚨, policecarlight 
-👮 🏿, policeofficerdarkskintone 
-👮 🏻, policeofficerlightskintone 
-👮 🏾, policeofficermediumdarkskintone 
-👮 🏼, policeofficermediumlightskintone 
-👮 🏽, policeofficermediumskintone 
 👮, policeofficer 
 🐩, poodle 
 🎱, pool8ball 
@@ -1972,22 +1071,7 @@ unicode_emote,text
 😾, poutingcatface 
 😡, poutingface 
 📿, prayerbeads 
-🤰 🏿, pregnantwomandarkskintone 
-🤰 🏻, pregnantwomanlightskintone 
-🤰 🏾, pregnantwomanmediumdarkskintone 
-🤰 🏼, pregnantwomanmediumlightskintone 
-🤰 🏽, pregnantwomanmediumskintone 
 🤰, pregnantwoman 
-🤴 🏿, princedarkskintone 
-🤴 🏻, princelightskintone 
-🤴 🏾, princemediumdarkskintone 
-🤴 🏼, princemediumlightskintone 
-🤴 🏽, princemediumskintone 
-👸 🏿, princessdarkskintone 
-👸 🏻, princesslightskintone 
-👸 🏾, princessmediumdarkskintone 
-👸 🏼, princessmediumlightskintone 
-👸 🏽, princessmediumskintone 
 👸, princess 
 🤴, prince 
 🖨, printer 
@@ -2006,32 +1090,7 @@ unicode_emote,text
 🛤, railwaytrack 
 🌈, rainbow 
 🏳 ️ ‍ 🌈, rainbowflag 
-🤚 🏿, raisedbackofhanddarkskintone 
-🤚 🏻, raisedbackofhandlightskintone 
-🤚 🏾, raisedbackofhandmediumdarkskintone 
-🤚 🏼, raisedbackofhandmediumlightskintone 
-🤚 🏽, raisedbackofhandmediumskintone 
-✊ 🏿, raisedfistdarkskintone 
-✊ 🏻, raisedfistlightskintone 
-✊ 🏾, raisedfistmediumdarkskintone 
-✊ 🏼, raisedfistmediumlightskintone 
-✊ 🏽, raisedfistmediumskintone 
-✋ 🏿, raisedhanddarkskintone 
-✋ 🏻, raisedhandlightskintone 
-✋ 🏾, raisedhandmediumdarkskintone 
-✋ 🏼, raisedhandmediumlightskintone 
-✋ 🏽, raisedhandmediumskintone 
 🖐, raisedhandwithfingerssplayed 
-🖐 🏿, raisedhandwithfingerssplayeddarkskintone 
-🖐 🏻, raisedhandwithfingerssplayedlightskintone 
-🖐 🏾, raisedhandwithfingerssplayedmediumdarkskintone 
-🖐 🏼, raisedhandwithfingerssplayedmediumlightskintone 
-🖐 🏽, raisedhandwithfingerssplayedmediumskintone 
-🙌 🏿, raisinghandsdarkskintone 
-🙌 🏻, raisinghandslightskintone 
-🙌 🏾, raisinghandsmediumdarkskintone 
-🙌 🏼, raisinghandsmediumlightskintone 
-🙌 🏽, raisinghandsmediumskintone 
 🙌, raisinghands 
 ✋, raisedhand 
 ✊, raisedfist 
@@ -2059,11 +1118,6 @@ unicode_emote,text
 🎀, ribbon 
 🍙, riceball 
 🍘, ricecracker 
-🤜 🏿, rightfacingfistdarkskintone 
-🤜 🏻, rightfacingfistlightskintone 
-🤜 🏾, rightfacingfistmediumdarkskintone 
-🤜 🏼, rightfacingfistmediumlightskintone 
-🤜 🏽, rightfacingfistmediumskintone 
 🤜, rightfacingfist 
 🔎, rightpointingmagnifyingglass 
 🗯, rightangerbubble 
@@ -2098,11 +1152,6 @@ unicode_emote,text
 💺, seat 
 🙈, seenoevilmonkey 
 🌱, seedling 
-🤳 🏿, selfiedarkskintone 
-🤳 🏻, selfielightskintone 
-🤳 🏾, selfiemediumdarkskintone 
-🤳 🏼, selfiemediumlightskintone 
-🤳 🏽, selfiemediumskintone 
 🤳, selfie 
 🕢, seventhirty 
 🕖, sevenoclock 
@@ -2122,11 +1171,6 @@ unicode_emote,text
 🚿, shower 
 🦐, shrimp 
 🔀, shuffletracksbutton 
-🤘 🏿, signofthehornsdarkskintone 
-🤘 🏻, signofthehornslightskintone 
-🤘 🏾, signofthehornsmediumdarkskintone 
-🤘 🏼, signofthehornsmediumlightskintone 
-🤘 🏽, signofthehornsmediumskintone 
 🤘, signofthehorns 
 🕡, sixthirty 
 🕕, sixoclock 
@@ -2159,11 +1203,6 @@ unicode_emote,text
 🐍, snake 
 🤧, sneezingface 
 🏔, snowcappedmountain 
-🏂 🏿, snowboarderdarkskintone 
-🏂 🏻, snowboarderlightskintone 
-🏂 🏾, snowboardermediumdarkskintone 
-🏂 🏼, snowboardermediumlightskintone 
-🏂 🏽, snowboardermediumskintone 
 🏂, snowboarder 
 ❄, snowflake 
 ☃, snowman 
@@ -2241,16 +1280,6 @@ unicode_emote,text
 💭, thoughtballoon 
 🕞, threethirty 
 🕒, threeoclock 
-👎 🏿, thumbsdowndarkskintone 
-👎 🏻, thumbsdownlightskintone 
-👎 🏾, thumbsdownmediumdarkskintone 
-👎 🏼, thumbsdownmediumlightskintone 
-👎 🏽, thumbsdownmediumskintone 
-👍 🏿, thumbsupdarkskintone 
-👍 🏻, thumbsuplightskintone 
-👍 🏾, thumbsupmediumdarkskintone 
-👍 🏼, thumbsupmediumlightskintone 
-👍 🏽, thumbsupmediumskintone 
 👎, thumbsdown 
 👍, thumbsup 
 🎫, ticket 
@@ -2302,11 +1331,6 @@ unicode_emote,text
 🙃, upsidedownface 
 🚦, verticaltrafficlight 
 📳, vibrationmode 
-✌ 🏿, victoryhanddarkskintone 
-✌ 🏻, victoryhandlightskintone 
-✌ 🏾, victoryhandmediumdarkskintone 
-✌ 🏼, victoryhandmediumlightskintone 
-✌ 🏽, victoryhandmediumskintone 
 ✌, victoryhand 
 📹, videocamera 
 🎮, videogame 
@@ -2314,11 +1338,6 @@ unicode_emote,text
 🎻, violin 
 🌋, volcano 
 🏐, volleyball 
-🖖 🏿, vulcansalutedarkskintone 
-🖖 🏻, vulcansalutelightskintone 
-🖖 🏾, vulcansalutemediumdarkskintone 
-🖖 🏼, vulcansalutemediumlightskintone 
-🖖 🏽, vulcansalutemediumskintone 
 🖖, vulcansalute 
 🌘, waningcrescentmoon 
 🌖, waninggibbousmoon 
@@ -2329,11 +1348,6 @@ unicode_emote,text
 🚾, watercloset 
 🌊, waterwave 
 🍉, watermelon 
-👋 🏿, wavinghanddarkskintone 
-👋 🏻, wavinghandlightskintone 
-👋 🏾, wavinghandmediumdarkskintone 
-👋 🏼, wavinghandmediumlightskintone 
-👋 🏽, wavinghandmediumskintone 
 👋, wavinghand 
 〰, wavydash 
 🌒, waxingcrescentmoon 
@@ -2367,11 +1381,6 @@ unicode_emote,text
 😟, worriedface 
 🎁, wrappedgift 
 🔧, wrench 
-✍ 🏿, writinghanddarkskintone 
-✍ 🏻, writinghandlightskintone 
-✍ 🏾, writinghandmediumdarkskintone 
-✍ 🏼, writinghandmediumlightskintone 
-✍ 🏽, writinghandmediumskintone 
 ✍, writinghand 
 💛, yellowheart 
 💴, yenbanknote 
@@ -2379,13 +1388,6 @@ unicode_emote,text
 🤐, zippermouthface 
 💤, zzz 
 🇦 🇽, alandislands 
-🏿, darkskintone 
-🏻, lightskintone 
-🏾, mediumdarkskintone 
-🏼, mediumlightskintone 
-🏽, mediumskintone 
-♂, malesign 
-♀, femalesign 
 🤩, starstruck 
 🥲, smilingfacewithtear 
 🥰, smilingfacewithhearts 
