@@ -2,11 +2,7 @@ import re
 import string
 
 from emtract.data.cleaning import unicode_emotes, emoticons, special_dict_r1, special_dict_r2, special_dict_r3, \
-    contraction_mapping, misspell_mapping, remove_dict, tickers, non_ambiguous_tickers, non_ambiguous_company_titles
-
-# Removed \', % and $ as we use them for tagging
-punctuation_table = str.maketrans('', '', '!"#&()*+,-./:;<=>?@[\\]^_`{|}~')
-
+    contraction_mapping, misspell_mapping, remove_dict, tickers, non_ambiguous_tickers, non_ambiguous_company_titles, punctuation_table
 
 def multiple_replace(replace_dict, tweet):
     """
