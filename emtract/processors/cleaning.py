@@ -21,6 +21,7 @@ def remove_links(tweet):
     Takes a string and removes web links from it.
     """
     tweet = re.sub(r'http\S+', ' ', tweet)  # remove http links
+    tweet = re.sub(r'www.\S+', ' ', tweet)  # remove www. links
     tweet = re.sub(r'bit.ly/\S+', ' ', tweet)  # remove bitly links
     tweet = re.sub(r'\S+://\S+', ' ', tweet)  # remove tricky links
     tweet = re.sub(r'\[[^]]*\]', ' ', tweet)  # remove words inside brackets
