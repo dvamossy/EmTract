@@ -198,9 +198,9 @@ def clean_tweet(tweet):
 
 
 if __name__ == "__main__":
-    # while True:
-    #     tweet_to_clean = input('Input tweet: ')
-    #     print(clean_tweet(tweet_to_clean))
+    while True:
+        tweet_to_clean = input('Input tweet: ')
+        print(clean_tweet(tweet_to_clean))
     # import pandas as pd
     # import time
     # tweets = pd.read_parquet('messages_sample.parquet.snappy')
