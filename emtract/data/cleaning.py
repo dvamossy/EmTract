@@ -1,6 +1,6 @@
 import pandas as pd
 
-special_dict_r1 = {"&amp;#39,s": "'", "Â´": "'"}
+special_dict_r1 = {"&amp;#39,s": "'", "Â´": "'", "-&gt;": ""}
 special_dict_r2 = {
     "(s)": "s",
     "&#39;": "'",
