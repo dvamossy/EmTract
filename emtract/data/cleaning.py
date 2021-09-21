@@ -50,7 +50,14 @@ misspell_mapping = misspell_df[misspell_df.type == 'misspell'].append(
 
 # Tickers and companies
 symbols_df = pd.read_csv(BASE_DIR + 'symbol_df.csv')
-tickers = set(symbols_df.symbol)
+
+# Removed \', % and $ as we use them for tagging
+punctuation_table = str.maketrans('!"#&()*+,-./:;<=>?@[\\]^_`{|}~', ' '*len('!"#&()*+,-./:;<=>?@[\\]^_`{|}~'))
+
+# Words after _ in tickers
+tickers = set([item.translate(punctuation_table) for item in set(symbols_df.symbol)])
+non_ambiguous_tickers = set([item.translate(punctuation_table) for item in set(symbols_df[symbols_df.ambiguous_ticker == False].symbol)])
+
 non_ambiguous_tickers = set(symbols_df[symbols_df.ambiguous_ticker == False].symbol)
 company_name_df = pd.read_csv(BASE_DIR + 'company_name_df.csv')
 company_titles = set(company_name_df.title)
