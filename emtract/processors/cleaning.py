@@ -147,15 +147,22 @@ def remove_tickers_and_companies(tweet):
     tweet_list = tweet.split()
     has_company = False
     new_tweet_list = []
-    for word in tweet_list:
+    for index, word in enumerate(tweet_list):
         if word[0] == '$':
             if word[1:] in tickers:
                 has_company = True
                 continue
-        if len(word) <= 4:
-            if word in non_ambiguous_tickers:
+            if index < len(tweet_list) -1:
+                if word[1:] + ' ' + tweet_list[index+1] in tickers:
+                    has_company = True
+                    continue
+        if index < len(tweet_list) - 1:
+            if word + ' ' + tweet_list[index+1] in non_ambiguous_tickers:
                 has_company = True
                 continue
+        if word in non_ambiguous_tickers:
+            has_company = True
+            continue
         if word in non_ambiguous_company_titles:
             has_company = True
             continue
@@ -184,12 +191,11 @@ def clean_tweet(tweet):
     # Clean text will remove punctuation, so any cleaning action that requires it to be present (emoticons, links, etc)
     # needs to be run before this step
     tweet = clean_text(tweet)
-
     tweet = remove_tickers_and_companies(tweet)
 
     # Remove misspellings, correct contractions, remove special characters
     tweet = swap_numbers(tweet)
-
+    tweet = " ".join(tweet.split())
     # Remove tweets shorter than n characters or that only contain placeholders
     check_tweet = tweet.strip().split()
     if len(check_tweet) < 1 or set(check_tweet).issubset(PLACEHOLDERS):
