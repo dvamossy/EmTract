@@ -32,10 +32,11 @@ special_dict_r3 = {
 remove_dict = {" 's ": " ", " 'd ": " ", "'s ": " ", "'d ": " "}
 remove_dict = {"'s": "", "'d": ""}
 
+
 BASE_DIR = 'emtract/data/'
 
-emoticons_df = pd.read_csv(BASE_DIR + 'emoticons.csv')
-unicode_emotes_df = pd.read_csv(BASE_DIR + 'unicode_emotes.csv')
+emoticons = pd.read_csv(BASE_DIR + 'emoticons.csv').values
+unicode_emotes = pd.read_csv(BASE_DIR + 'unicode_emotes.csv').values
 
 misspell_df = pd.read_csv(BASE_DIR + 'misspell_df.csv')
 segmented_df = pd.read_parquet(BASE_DIR + 'segmented_df.parquet.snappy').dropna()

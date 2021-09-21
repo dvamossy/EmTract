@@ -1,7 +1,7 @@
 import re
 import string
 
-from emtract.data.cleaning import unicode_emotes_df, emoticons_df, special_dict_r1, special_dict_r2, special_dict_r3, \
+from emtract.data.cleaning import unicode_emotes, emoticons, special_dict_r1, special_dict_r2, special_dict_r3, \
     contraction_mapping, misspell_mapping, remove_dict, tickers, non_ambiguous_tickers, non_ambiguous_company_titles
 
 # Removed \', % and $ as we use them for tagging
@@ -119,8 +119,8 @@ def convert_emoticons(tweet):
     :param tweet:
     :return:
     """
-    for i, row in emoticons_df.iterrows():
-        tweet = tweet.replace(row.emoticon, row.text)
+    for emoticon, text in emoticons:
+        tweet = tweet.replace(emoticon, text)
     return tweet
 
 
@@ -132,8 +132,8 @@ def convert_emojis(tweet):
     """
     # Remove gender / race information
     tweet = re.sub("[\U0000200D\U00002642\U00002640\U0001F3FD\U0001F3FC\U0001F3FE\U0001F3FB\U0001F3FF]", "", tweet)
-    for i, row in unicode_emotes_df.iterrows():
-        tweet = tweet.replace(row.unicode_emote, row.text)
+    for unicode_emote, text in unicode_emotes:
+        tweet = tweet.replace(unicode_emote, text)
     return tweet
 
 
@@ -198,8 +198,17 @@ def clean_tweet(tweet):
 
 
 if __name__ == "__main__":
-    while True:
-        tweet_to_clean = input('Input tweet: ')
-        print(clean_tweet(tweet_to_clean))
-
+    # while True:
+    #     tweet_to_clean = input('Input tweet: ')
+    #     print(clean_tweet(tweet_to_clean))
+    # import pandas as pd
+    # import time
+    # tweets = pd.read_parquet('messages_sample.parquet.snappy')
+    # n = 0
+    # start = time.time()
+    # for i, row in tweets.iterrows():
+    #     if n == 500:
+    #         print('time: {}'.format(time.time() - start))
+    #         break
+    #     n += 1
 
