@@ -146,16 +146,18 @@ def remove_tickers_and_companies(tweet):
     new_tweet_list = []
     for index, word in enumerate(tweet_list):
         if word[0] == '$':
-            if word[1:] in tickers:
-                has_company = True
-                continue
             if index < len(tweet_list) -1:
                 if word[1:] + ' ' + tweet_list[index+1] in tickers:
                     has_company = True
+                    tweet_list.pop(index+1)
                     continue
+            if word[1:] in tickers:
+                has_company = True
+                continue
         if index < len(tweet_list) - 1:
             if word + ' ' + tweet_list[index+1] in non_ambiguous_tickers:
                 has_company = True
+                tweet_list.pop(index+1)
                 continue
         if word in non_ambiguous_tickers:
             has_company = True
