@@ -175,29 +175,33 @@ def clean_tweet(tweet):
     :param tweet:
     :return:
     """
-    tweet = str(tweet).lower() + ' '
+    try:
+        tweet = str(tweet).lower() + ' '
 
-    tweet = remove_tags(tweet)
-    tweet = remove_links(tweet)
+        tweet = remove_tags(tweet)
+        tweet = remove_links(tweet)
 
-    tweet = convert_emoticons(tweet)
-    tweet = convert_emojis(tweet)
+        tweet = convert_emoticons(tweet)
+        tweet = convert_emojis(tweet)
 
-    tweet = sub_special(tweet)
+        tweet = sub_special(tweet)
 
-    # Clean text will remove punctuation, so any cleaning action that requires it to be present (emoticons, links, etc)
-    # needs to be run before this step
-    tweet = clean_text(tweet)
-    tweet = remove_tickers_and_companies(tweet)
+        # Clean text will remove punctuation, so any cleaning action that requires it to be present (emoticons, links, etc)
+        # needs to be run before this step
+        tweet = clean_text(tweet)
+        tweet = remove_tickers_and_companies(tweet)
 
-    # Remove misspellings, correct contractions, remove special characters
-    tweet = swap_numbers(tweet)
-    tweet = " ".join(tweet.split())
-    # Remove tweets shorter than n characters or that only contain placeholders
-    check_tweet = tweet.strip().split()
-    if len(check_tweet) < 1 or set(check_tweet).issubset(PLACEHOLDERS):
+        # Remove misspellings, correct contractions, remove special characters
+        tweet = swap_numbers(tweet)
+        tweet = " ".join(tweet.split())
+        # Remove tweets shorter than n characters or that only contain placeholders
+        check_tweet = tweet.strip().split()
+        if len(check_tweet) < 1 or set(check_tweet).issubset(PLACEHOLDERS):
+            tweet = ''
+    except:
         tweet = ''
     return tweet
+
 
 
 if __name__ == "__main__":
