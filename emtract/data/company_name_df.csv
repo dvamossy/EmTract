@@ -3301,7 +3301,7 @@ f5,False
 fab,True
 fabled,True
 fabrinet,False
-facebook,False
+facebook,True
 facedrive,False
 facet,True
 factorshares,False
@@ -7498,7 +7498,7 @@ red,True
 redball,False
 redbeacon,False
 redbrick,True
-reddit,False
+reddit,True
 reddy,True
 redfin,True
 redflow,False
