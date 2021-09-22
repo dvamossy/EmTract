@@ -101,7 +101,7 @@ def swap_numbers(tweet):
     tweet = re.sub('\$\d+?\s?.?\s?\d?k?m?b?t?\s', ' dollarvalueplaceholder ', tweet)
     tweet = re.sub(r"\d\s?.?\s?\d+?k?m?b?t?\s", ' numbervalueplaceholder ', tweet) # remove numbers
     tweet = re.sub(r"\d+?\s?.?\s?\d?k?m?b?t?\s", ' numbervalueplaceholder ', tweet) # remove numbers
-    tweet = re.sub(r"\d+?t?h?n?r?d?", ' ', tweet)  # remove numbers in words
+    tweet = re.sub(r"\d+?s?t?h?n?r?d?", ' ', tweet)  # remove words like 5th, 2nd, 11st
     tweet = re.sub(r"\d+?", ' ', tweet) # remove leftover numbers
     tweet = re.sub("%", "percentageplaceholder", tweet)
     if 'percentageplaceholder' in tweet:
