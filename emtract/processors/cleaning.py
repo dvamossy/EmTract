@@ -35,7 +35,8 @@ def remove_tags(tweet):
     """
     Takes a string and removes retweet and @user.
     """
-    tweet = re.sub('(^rt:? @[a-z]+[a-z0-9-_]+)|(\W+rt:? @[a-z]+[a-z0-9-_]+)', ' ', tweet)  # remove retweeted at
+    tweet = re.sub('(^rt:? @[a-z]+[a-z0-9-_]+)|(\W+rt:? @[a-z]+[a-z0-9-_]+)',
+                   ' ', tweet)  # remove retweeted at
     tweet = re.sub('(@[a-z0-9]+[a-z0-9-_]+)', ' ', tweet)  # remove users
     return tweet
 
@@ -81,7 +82,8 @@ def sub_special(tweet):
         "[\u2019\u2018\u201a\u201b\u201c\u201d\u201e\u201f\u2039\u203a\u00ab\u00bb\u0022\u301d\u301e\u301f\uff02\uff07]",
         "'", tweet)
     tweet = re.sub('([.,!?();])', r' \1 ', tweet)  # enforce spacing
-    tweet = "".join(filter(lambda char: char in string.printable, tweet))  # remove non-printable characters
+    # remove non-printable characters
+    tweet = "".join(filter(lambda char: char in string.printable, tweet))
     tweet = re.sub(r'(.)\1+', r'\1\1', tweet)  # remove repeated characters
     return tweet
 
@@ -97,19 +99,27 @@ def swap_numbers(tweet):
     :return:
     """
     tweet = tweet.replace('_', ' ') + ' '
-    tweet = re.sub('\$\d\s?.?\s?\d+?k?m?b?t?\s', ' dollarvalueplaceholder ', tweet)
-    tweet = re.sub('\$\d+?\s?.?\s?\d?k?m?b?t?\s', ' dollarvalueplaceholder ', tweet)
-    tweet = re.sub(r"\d\s?.?\s?\d+?k?m?b?t?\s", ' numbervalueplaceholder ', tweet) # remove numbers
-    tweet = re.sub(r"\d+?\s?.?\s?\d?k?m?b?t?\s", ' numbervalueplaceholder ', tweet) # remove numbers
-    tweet = re.sub(r"\d+?s?t?h?n?r?d?", ' ', tweet)  # remove words like 5th, 2nd, 11st
-    tweet = re.sub(r"\d+?", ' ', tweet) # remove leftover numbers
+    tweet = re.sub('\$\d\s?.?\s?\d+?k?m?b?t?\s',
+                   ' dollarvalueplaceholder ', tweet)
+    tweet = re.sub('\$\d+?\s?.?\s?\d?k?m?b?t?\s',
+                   ' dollarvalueplaceholder ', tweet)
+    tweet = re.sub(r"\d\s?.?\s?\d+?k?m?b?t?\s",
+                   ' numbervalueplaceholder ', tweet)  # remove numbers
+    tweet = re.sub(r"\d+?\s?.?\s?\d?k?m?b?t?\s",
+                   ' numbervalueplaceholder ', tweet)  # remove numbers
+    # remove words like 5th, 2nd, 11st
+    tweet = re.sub(r"\d+?s?t?h?n?r?d?", ' ', tweet)
+    tweet = re.sub(r"\d+?", ' ', tweet)  # remove leftover numbers
     tweet = re.sub("%", "percentageplaceholder", tweet)
     if 'percentageplaceholder' in tweet:
-        tweet = tweet.replace("percentageplaceholder", '') + ' percentageplaceholder'
+        tweet = tweet.replace("percentageplaceholder",
+                              '') + ' percentageplaceholder'
     if 'dollarvalueplaceholder' in tweet:
-        tweet = tweet.replace('dollarvalueplaceholder', '') + ' dollarvalueplaceholder'
+        tweet = tweet.replace('dollarvalueplaceholder',
+                              '') + ' dollarvalueplaceholder'
     if 'numbervalueplaceholder' in tweet:
-        tweet = tweet.replace('numbervalueplaceholder', '') + ' numbervalueplaceholder'
+        tweet = tweet.replace('numbervalueplaceholder',
+                              '') + ' numbervalueplaceholder'
     return tweet.replace('$', '')
 
 
@@ -132,7 +142,8 @@ def convert_emojis(tweet):
     :return:
     """
     # Remove gender / race information
-    tweet = re.sub("[\U0000200D\U00002642\U00002640\U0001F3FD\U0001F3FC\U0001F3FE\U0001F3FB\U0001F3FF]", "", tweet)
+    tweet = re.sub(
+        "[\U0000200D\U00002642\U00002640\U0001F3FD\U0001F3FC\U0001F3FE\U0001F3FB\U0001F3FF]", "", tweet)
     for unicode_emote, text in unicode_emotes:
         tweet = tweet.replace(unicode_emote, text)
     return tweet
@@ -150,7 +161,7 @@ def remove_tickers_and_companies(tweet):
     new_tweet_list = []
     for index, word in enumerate(tweet_list):
         if word[0] == '$':
-            if index < len(tweet_list) -1:
+            if index < len(tweet_list) - 1:
                 if word[1:] + ' ' + tweet_list[index+1] in tickers:
                     has_company = True
                     tweet_list.pop(index+1)
