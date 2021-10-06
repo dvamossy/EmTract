@@ -28,7 +28,9 @@ def remove_links(tweet):
     tweet = re.sub('\S+\.(gif|png|jpg|jpeg|eps|pdf|raw|psd|tiff)\W+?', '',
                    tweet)  # remove image filenames
     tweet = re.sub('\S*@\S*\s?', ' ', tweet)  # remove email addresses
+    tweet = re.sub(r'\d{1,2}:\d{2}[a|p]?m?', '', tweet) #remove dates
     return tweet
+
 
 
 def remove_tags(tweet):
@@ -69,15 +71,19 @@ def clean_text(tweet):
     return tweet
 
 
+def replace_special(tweet):
+    tweet = multiple_replace(special_dict_r1, tweet)
+    tweet = multiple_replace(special_dict_r2, tweet)
+    tweet = multiple_replace(special_dict_r3, tweet)
+    return tweet
+
+
 def sub_special(tweet):
     """
     Replace tweets with 3 custom dictionaries for corner cases
     :param tweet:
     :return:
     """
-    tweet = multiple_replace(special_dict_r1, tweet)
-    tweet = multiple_replace(special_dict_r2, tweet)
-    tweet = multiple_replace(special_dict_r3, tweet)
     tweet = re.sub(
         "[\u2019\u2018\u201a\u201b\u201c\u201d\u201e\u201f\u2039\u203a\u00ab\u00bb\u0022\u301d\u301e\u301f\uff02\uff07]",
         "'", tweet)
@@ -197,6 +203,7 @@ def clean_tweet(tweet):
 
         tweet = remove_tags(tweet)
         tweet = remove_links(tweet)
+        tweet = replace_special(tweet)
 
         tweet = convert_emoticons(tweet)
         tweet = convert_emojis(tweet)
@@ -218,6 +225,7 @@ def clean_tweet(tweet):
     except:
         tweet = ''
     return tweet
+
 
 
 
