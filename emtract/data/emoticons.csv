@@ -5,7 +5,7 @@ emoticon,text
 :-], happyface 
 :], happyface 
 :-3, happyface 
-:3, happyface 
+ :3, happyface 
 :->, happyface 
 :>, happyface 
 8-), happyface 
@@ -17,17 +17,17 @@ emoticon,text
 =], happyface 
 =), happyface 
 :-d, laughingface 
-:d, laughingface 
-x-d, laughingface 
-xd, laughingface 
-=d, laughingface 
+ :d, laughingface 
+ x-d, laughingface 
+ xd, laughingface 
+ =d, laughingface 
 =3, laughingface 
 b^d, laughingface 
 :-)), veryhappyface 
 :-(, sadface 
 :(, sadface 
 :-c, sadface 
-:c, sadface 
+ :c, sadface 
 :-<, sadface 
 :<, sadface 
 :-[, sadface 
@@ -42,9 +42,9 @@ b^d, laughingface
 :'-), veryhappyface 
 :'), veryhappyface 
 d:<, disgustface 
-d=, disgustface 
+  d=, disgustface 
 :-o, surprisedface 
-:o, surprisedface 
+ :o, surprisedface 
 :-0, surprisedface 
 8-0, boredface 
 >:o, boredface 
@@ -56,13 +56,13 @@ d=, disgustface
 ;], winkface 
 ;^), winkface 
 ":-,", winkface 
-;d, winkface 
+ ;d, winkface 
 :-p, cheekyface 
-:p, cheekyface 
+ :p, cheekyface 
 x-p, cheekyface 
-:b, cheekyface 
-d:, cheekyface 
-=p, cheekyface 
+ :b, cheekyface 
+ d:, cheekyface 
+ =p, cheekyface 
 >:p, cheekyface 
 :-/, annoyedface 
 :/, annoyedface 
@@ -72,9 +72,9 @@ d:, cheekyface
 :[()], annoyedface 
 =/, annoyedface 
 =[()], annoyedface 
-:l, annoyedface 
+ :l, annoyedface 
 =l, annoyedface 
-:s, annoyedface 
+ :s, annoyedface 
 >:-), evilface 
 >:), evilface 
 }:-), evilface 
@@ -85,7 +85,6 @@ d:, cheekyface
 |-o, boredface 
 #-), happyface 
 %-), surprisedface 
-%), surprisedface 
 :-###.., sickface 
 :###.., sickface 
 (>_<), fearface 
@@ -111,8 +110,8 @@ d:, cheekyface
 ;-;, sadface 
 ;n;, sadface 
 ;;, sadface 
-q.q, sadface 
-t.t, sadface 
+q.q , sadface 
+t.t , sadface 
 q_q, sadface 
 (-.-), sadface 
 (-_-), sadface 
@@ -146,5 +145,5 @@ q_q, sadface
 )^o^(, happyface 
 o_o, surprisedface 
 o_0, surprisedface 
-o.o, surprisedface 
-(o.o), surprisedface 
+o.o , surprisedface 
+(o.o), surprisedface
