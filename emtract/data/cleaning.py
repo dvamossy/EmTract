@@ -11,8 +11,8 @@ special_dict_r2 = {
     "\'": "'",
     "&quot;": "",
     "&amp;": " and ",
-    "’": "'",
-    "é": "'",
+    "â€™": "'",
+    "Ã©": "'",
     "\n": " ",
     "\t": " ",
     "-ly ": "ly ",
@@ -29,9 +29,7 @@ special_dict_r3 = {
     " we ve ": " we have ",
     " i ve ": " i have "
 }
-remove_dict = {" 's ": " ", " 'd ": " ", "'s ": " ", "'d ": " "}
 remove_dict = {"'s": "", "'d": ""}
-
 
 BASE_DIR = 'emtract/data/'
 
