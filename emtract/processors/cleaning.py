@@ -3,13 +3,25 @@ import string
 
 from emtract.data.cleaning import unicode_emotes, emoticons, special_dict_r1, special_dict_r2, special_dict_r3, \
     contraction_mapping, misspell_mapping, remove_dict, tickers, non_ambiguous_tickers, non_ambiguous_company_titles, punctuation_table
+def remove_r(text):
+    text = re.sub('\r', '', text)
+    return text
+
 
 def multiple_replace(replace_dict, tweet):
     """
-    Replaces every value from the given dictionary using regular expression
-    :param replace_dict: keys in text are replaced by values
-    :param tweet:
-    :return:
+    Replaces every value from the given dictionary using regular expression for a string.
+    
+    Parameters
+    ----------
+    replace_dict: dict
+        Keys in text are replaced by values
+    tweet: string
+        String to replace text for
+        
+    Return
+    ----------
+        String in which replace_dict.keys() are replaced.
     """
     regex = re.compile("(%s)" % "|".join(map(re.escape, replace_dict.keys())))
     # For each match, look-up corresponding value in dictionary
@@ -18,7 +30,7 @@ def multiple_replace(replace_dict, tweet):
 
 def remove_links(tweet):
     """
-    Takes a string and removes web links from it.
+    Takes a string and removes web links, email addresses, dates, and figure attachments from.
     """
     tweet = re.sub(r'http\S+', ' ', tweet)  # remove http links
     tweet = re.sub(r'www.\S+', ' ', tweet)  # remove www. links
@@ -28,9 +40,9 @@ def remove_links(tweet):
     tweet = re.sub('\S+\.(gif|png|jpg|jpeg|eps|pdf|raw|psd|tiff)\W+?', '',
                    tweet)  # remove image filenames
     tweet = re.sub('\S*@\S*\s?', ' ', tweet)  # remove email addresses
+    tweet = re.sub(r'\d{1,2}:\d{2}:\d{2}[a|p]?m?', '', tweet) #remove dates
     tweet = re.sub(r'\d{1,2}:\d{2}[a|p]?m?', '', tweet) #remove dates
     return tweet
-
 
 
 def remove_tags(tweet):
@@ -49,8 +61,6 @@ def clean_text(tweet):
     1. Removes punctuation and tabs
     2. Expands contractions into complete words (i.e. don't -> do not)
     3. Corrects misspelled words
-    :param tweet:
-    :return:
     """
     tweet = tweet.translate(punctuation_table)  # strip punctuation
     tweet = re.sub('\s+', ' ', tweet).rstrip().lstrip()  # remove tabs and etc.
@@ -70,7 +80,6 @@ def clean_text(tweet):
         tweet)  # remove repeated characters #need to do it after cleaning too
     return tweet
 
-
 def replace_special(tweet):
     tweet = multiple_replace(special_dict_r1, tweet)
     tweet = multiple_replace(special_dict_r2, tweet)
@@ -81,8 +90,6 @@ def replace_special(tweet):
 def sub_special(tweet):
     """
     Replace tweets with 3 custom dictionaries for corner cases
-    :param tweet:
-    :return:
     """
     tweet = re.sub(
         "[\u2019\u2018\u201a\u201b\u201c\u201d\u201e\u201f\u2039\u203a\u00ab\u00bb\u0022\u301d\u301e\u301f\uff02\uff07]",
@@ -101,20 +108,19 @@ PLACEHOLDERS = {'percentageplaceholder', 'dollarvalueplaceholder', 'numbervaluep
 def swap_numbers(tweet):
     """
     Swap different numbers for placeholders, as our model doesn't learn much from them
-    :param tweet:
-    :return:
     """
     tweet = tweet.replace('_', ' ') + ' '
-    tweet = re.sub('\$\d\s?.?\s?\d+?k?m?b?t?\s',
+    tweet = re.sub('\$\d\s?.?\s?\d+?k?m?b?t?\s\d+\$',
                    ' dollarvalueplaceholder ', tweet)
     tweet = re.sub('\$\d+?\s?.?\s?\d?k?m?b?t?\s',
+                   ' dollarvalueplaceholder ', tweet)
+    tweet = re.sub('\d+?\$',
                    ' dollarvalueplaceholder ', tweet)
     tweet = re.sub(r"\d\s?.?\s?\d+?k?m?b?t?\s",
                    ' numbervalueplaceholder ', tweet)  # remove numbers
     tweet = re.sub(r"\d+?\s?.?\s?\d?k?m?b?t?\s",
                    ' numbervalueplaceholder ', tweet)  # remove numbers
-    # remove words like 5th, 2nd, 11st
-    tweet = re.sub(r"\d+?s?t?h?n?r?d?", ' ', tweet)
+    tweet = re.sub(r"\d+?s?t?h?n?r?d?\s", ' ', tweet)
     tweet = re.sub(r"\d+?", ' ', tweet)  # remove leftover numbers
     tweet = re.sub("%", "percentageplaceholder", tweet)
     if 'percentageplaceholder' in tweet:
@@ -133,8 +139,6 @@ def convert_emoticons(tweet):
     """
     Convert emoticons into grouped text names.
     For example :) and (^_^)v will become happyface
-    :param tweet:
-    :return:
     """
     for emoticon, text in emoticons:
         tweet = tweet.replace(emoticon, text)
@@ -143,9 +147,7 @@ def convert_emoticons(tweet):
 
 def convert_emojis(tweet):
     """
-    Convert emojis into text names
-    :param tweet:
-    :return:
+    Convert emojis into text names. We remove gender/race info from the emoji.
     """
     # Remove gender / race information
     tweet = re.sub(
@@ -159,8 +161,6 @@ def remove_tickers_and_companies(tweet):
     """
     Remove any tickers or company names that appear in the text. We append a placeholder to denote the presence
     of a ticker in the text. We ignore some company and tickers which are also commonly used words.
-    :param tweet:
-    :return:
     """
     tweet_list = tweet.split()
     has_company = False
@@ -194,9 +194,7 @@ def remove_tickers_and_companies(tweet):
 
 def clean_tweet(tweet):
     """
-    Main function to run cleaning sequentially
-    :param tweet:
-    :return:
+    Main function to run cleaning sequentially.
     """
     try:
         tweet = str(tweet).lower() + ' '
@@ -225,8 +223,6 @@ def clean_tweet(tweet):
     except:
         tweet = ''
     return tweet
-
-
 
 
 if __name__ == "__main__":
