@@ -61,7 +61,7 @@ We found the StockTwits model to perform better on the hand-tagged sample, and t
 ## Citation
 If you use EmTract in your research, please cite us as follows:
 
-   Domonkos Vamossy and Rolf Skog. **EmTract: Investor Emotions and Market Behavior** https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3975884, 2021. Version 0.x.
+   Domonkos Vamossy and Rolf Skog. **EmTract: Investor Emotions and Market Behavior** https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3975884, 2021. 
    
 ## Contributing and Feedback
 This project welcomes contributions and suggestions. 
