@@ -53,12 +53,12 @@ Our models leverage [GloVe](https://nlp.stanford.edu/projects/glove/) Embeddings
 
 We trained our emotion models with 2 different data sources. One from Twitter, and another from StockTwits. The Twitter training data comes from [here](https://github.com/sarnthil/unify-emotion-datasets/tree/master/datasets); it is available at data/twitter_emotion.csv. The StockTwits training data is explained in the paper. 
 
-In addition to our training data sources, we hand-tagged 10,000 StockTwits messages. These are available at data/hand_tagged_sample.parquet.snappy. These messages were not included during training any of our models. We use this for testing model performance, and alternative emotion packages (notebooks/Alternative Packages.ipynb). 
+One of the key concerns using emotion packages is that it is unknown how well they transfer to financial text data. We alleviate this concern by hand-tagging 10,000 StockTwits messages. These are available at data/hand_tagged_sample.parquet.snappy; they were not included during training any of our models. We use this for testing model performance, and alternative emotion packages (notebooks/Alternative Packages.ipynb). 
 
-We found the StockTwits model to perform better on the hand-tagged sample, and therefore it is used as the default for predictions.
+We found our StockTwits model to perform best on the hand-tagged sample, and therefore it is used as the default for predictions. 
 
 #### Alternative Models
-We also have an implementation of [DistilBERT](https://huggingface.co/bhadresh-savani/distilbert-base-uncased-emotion) in notebooks/Alternative Models.ipynb on the Twitter data; which can be easily extended to any other state-of-the-art models. We find marginal performance gains on the hand-tagged sample, which comes at the cost of far slower inference. 
+We also have an implementation of [DistilBERT](https://huggingface.co/bhadresh-savani/distilbert-base-uncased-emotion) in notebooks/Alternative Models.ipynb on the Twitter data; which can be easily extended to any other state-of-the-art models. We find marginal performance gains on the hand-tagged sample, which comes at the cost of far slower inference.
 
 ## Citation
 If you use EmTract in your research, please cite us as follows:
@@ -68,4 +68,4 @@ If you use EmTract in your research, please cite us as follows:
 ## Contributing and Feedback
 This project welcomes contributions and suggestions. 
 
-Our goal is to open a unified framework for extracting emotions from financial social media text. Particularly useful would be labeling financial social media text. We plan to upload sample text upon request.
+Our goal is to provide a unified framework for extracting emotions from financial social media text. Particularly useful for research on emotions in financial contexts would be labeling financial social media text. We plan to upload sample text upon request.
