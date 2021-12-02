@@ -1,10 +1,8 @@
 # EmTract
 
-Emtract is a tool used to evaluate emotions in text. 
-It uses cutting edge machine learning techniques to learn latent representations of words that are later used by a GRU based model to predict the emotion present.
+EmTract is a tool that extracts emotions from social media text. It incorporates key aspects of social media data (e.g., non-standard phrases, emojis and emoticons), and uses cutting edge natural language processing (NLP) techniques to learn latent representations, such as word order, word usage, and local context, to predict the emotions. 
 
-It is explained in more detail in the paper [EmTract: Investor Emotions and Market Behavior](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3975884&fbclid=IwAR1gAgHGekkp_bO2QkT_YbtQaJmvM7O5JrfXNHCAYXF2D3-N_9PaXZC-Cig).
-Details on the model and text processing appear in the appendix.
+Details on the model and text processing are in the appendix of [EmTract: Investor Emotions and Market Behavior](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3975884&fbclid=IwAR1gAgHGekkp_bO2QkT_YbtQaJmvM7O5JrfXNHCAYXF2D3-N_9PaXZC-Cig). 
 
 ## User guide
 
@@ -13,7 +11,7 @@ Before being able to use the package [python3](https://www.python.org/downloads/
 We also recommend using a virtual environment so that the tool runs with the same dependencies with which it was developed.
 Instruction on how to set up a virtual environment can be found [here](https://docs.python.org/3/tutorial/venv.html).
 
-Once basic requirements are setup follow the following instructions:
+Once basic requirements are setup, follow these instructions:
 1. Clone the repository: `git clone https://github.com/dvamossy/EmTract.git`
 2. Navigate into repository: `cd EmTract`
 2. (Optional) Create and activate virtual environment:
@@ -39,21 +37,23 @@ Where args are the following:
 #### Modes
 Our tool can be run in 2 execution modes.
 
-Interactive mode will allow the user to input a tweet and evaluate it in real time.
-This is great for quick exploration of different messages.
+Interactive mode allows the user to input a tweet and evaluate it in real time. This is great for exploratory analysis.
 ```commandline
 python3 -m emtract.inference --interactive
 ```
 
-The other mode is intended for larger predictions.
-Here an input file must be specified that will be used as the prediction input.
-This file must be a csv or text file with 1 column. 
-This column should have the messages to predict with.
+The other mode is intended for automating predictions. Here an input file must be specified that will be used as the prediction input.
+This file must be a csv or text file with 1 column. This column should have the messages/text to predict with.
 ```commandline
 python3 -m emtract.inference -i tweets_example.csv -o predictions.csv
 ```
 
 #### Model types
-We trained our emotion models with 2 tweet datasets. 
-One from twitter and another from stocktwits.
-As discussed in the paper the stocktwits model has better performance and is used as the default for predictions.
+We trained our emotion models with 2 different data sources. One from Twitter, and another from StockTwits. The Twitter training data comes from [here](https://github.com/sarnthil/unify-emotion-datasets/tree/master/datasets); it is available at data/twitter_emotion.csv. The StockTwits training data is explained in the paper. 
+
+In addition to our training data sources, we hand-tagged 10,000 StockTwits messages. These are available at data/hand_tagged_sample.parquet.snappy. These messages were not included during training any of our models. We use this for testing model performance, and alternative emotion packages (notebooks/Alternative Packages.ipynb). 
+
+Our models leverage [GloVe](https://nlp.stanford.edu/projects/glove/) Embeddings with Bidirectional GRU architecture. 
+We also have an implementation of [DistilBERT](https://huggingface.co/bhadresh-savani/distilbert-base-uncased-emotion) in notebooks/Alternative Models.ipynb on the Twitter data; which can be easily extended to any other state-of-the-art models. We find marginal performance gains on the hand-tagged sample, which comes at the cost of far slower inference. 
+
+We found the StockTwits model to perform better on the hand-tagged sample, and therefore it is used as the default for predictions.
