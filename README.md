@@ -34,6 +34,8 @@ Where args are the following:
 * --input_file/-i: input to use for predictions (only for non interactive mode)
 * --output_file/-o: output location for predictions(only for non interactive mode)
 
+#### Output
+For each input (i.e., text), EmTract outputs probabilities (they sum to 1!) corresponding to seven emotional states: neutral, happy, sad, anger, disgust, surprise, fear. It also labels the text by computing the argmax of the probabilities. 
 
 #### Modes
 Our tool can be run in 2 execution modes.
