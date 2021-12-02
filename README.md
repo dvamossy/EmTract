@@ -1,5 +1,5 @@
 
-<h1><img src="doc/emotions.png" width="80px" align="left" style="margin-right: 10px;"> EmTract</h1>
+<h1><img src="doc/emotions.png" width="80px" align="left" style="margin-right: 10px;"> EmTract: Extracting Emotions from (Financial) Social Media Text</h1>
 
 EmTract is a tool that extracts emotions from social media text. It incorporates key aspects of social media data (e.g., non-standard phrases, emojis and emoticons), and uses cutting edge natural language processing (NLP) techniques to learn latent representations, such as word order, word usage, and local context, to predict the emotions. 
 
