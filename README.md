@@ -57,3 +57,13 @@ Our models leverage [GloVe](https://nlp.stanford.edu/projects/glove/) Embeddings
 We also have an implementation of [DistilBERT](https://huggingface.co/bhadresh-savani/distilbert-base-uncased-emotion) in notebooks/Alternative Models.ipynb on the Twitter data; which can be easily extended to any other state-of-the-art models. We find marginal performance gains on the hand-tagged sample, which comes at the cost of far slower inference. 
 
 We found the StockTwits model to perform better on the hand-tagged sample, and therefore it is used as the default for predictions.
+
+## Citation
+If you use EmTract in your research, please cite us as follows:
+
+   Domonkos Vamossy and Rolf Skog. **EmTract: Investor Emotions and Market Behavior** https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3975884, 2021. Version 0.x.
+   
+## Contributing and Feedback
+This project welcomes contributions and suggestions. 
+
+Our goal is to open a unified framework for extracting emotions from financial social media text. Particularly useful would be labeling financial social media text. We plan to upload sample text upon request.
