@@ -220,19 +220,7 @@ def clean_tweet(tweet):
     return tweet
 
 
-
 if __name__ == "__main__":
     while True:
         tweet_to_clean = input('Input tweet: ')
         print(clean_tweet(tweet_to_clean))
-    # import pandas as pd
-    # import time
-    # tweets = pd.read_parquet('messages_sample.parquet.snappy')
-    # n = 0
-    # start = time.time()
-    # for i, row in tweets.iterrows():
-    #     if n == 500:
-    #         print('time: {}'.format(time.time() - start))
-    #         break
-    #     n += 1
-
