@@ -52,16 +52,9 @@ python3 -m emtract.inference -i tweets_example.csv -o predictions.csv
 ```
 
 #### Model Types
-Our models leverage [GloVe](https://nlp.stanford.edu/projects/glove/) Embeddings with Bidirectional GRU architecture. 
+We implemented and fine-tuned [DistilBERT](https://huggingface.co/bhadresh-savani/distilbert-base-uncased-emotion) model for emotion classification. One of the key concerns using emotion packages is that it is unknown how well they transfer to financial text data. We alleviate this concern by hand-tagging 10,000 StockTwits messages, and making use of them via 5-fold cross-validation. These are available at data/tagged_sample.parquet.snappy. We also tested an alternative emotion package in (notebooks/Alternative Packages.ipynb). 
 
-We trained our emotion models with 2 different data sources. One from Twitter, and another from StockTwits. The Twitter training data comes from [here](https://github.com/sarnthil/unify-emotion-datasets/tree/master/datasets); it is available at data/twitter_emotion.csv. The StockTwits training data is explained in the paper. 
-
-One of the key concerns using emotion packages is that it is unknown how well they transfer to financial text data. We alleviate this concern by hand-tagging 10,000 StockTwits messages. These are available at data/hand_tagged_sample.parquet.snappy; they were not included during training any of our models. We use this for testing model performance, and alternative emotion packages (notebooks/Alternative Packages.ipynb). 
-
-We found our StockTwits model to perform best on the hand-tagged sample, and therefore it is used as the default for predictions. 
-
-#### Alternative Models
-We also have an implementation of [DistilBERT](https://huggingface.co/bhadresh-savani/distilbert-base-uncased-emotion) in notebooks/Alternative Models.ipynb on the Twitter data; which can be easily extended to any other state-of-the-art models. We find marginal performance gains on the hand-tagged sample, which comes at the cost of far slower inference.
+We trained our emotion models with 2 different data sources. One from Twitter, and another from StockTwits. The Twitter training data comes from [here](https://github.com/sarnthil/unify-emotion-datasets/tree/master/datasets); it is available at data/emotion_sources.csv. For the StockTwits based model, we transferred the Twitter based model to the StockTwits sample via 5-fold cross-validation. We found our StockTwits model to perform best on the hand-tagged sample via five-fold CV, and therefore it is used as the default for predictions. 
 
 ## Citation
 If you use EmTract in your research, please cite us as follows:
