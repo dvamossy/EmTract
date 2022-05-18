@@ -56,6 +56,8 @@ We implemented and fine-tuned [DistilBERT](https://huggingface.co/bhadresh-savan
 
 We trained our emotion models with 2 different data sources. One from Twitter, and another from StockTwits. The Twitter training data comes from [here](https://github.com/sarnthil/unify-emotion-datasets/tree/master/datasets); it is available at data/emotion_sources.csv. For the StockTwits based model, we transferred the Twitter based model to the StockTwits sample via 5-fold cross-validation. We found our StockTwits model to perform best on the hand-tagged sample via five-fold CV, and therefore it is used as the default for predictions. 
 
+The model is also available [here](https://huggingface.co/vamossyd/bert-base-uncased-emotion), and can be tested for inference without any software.
+
 ## Citation
 If you use EmTract in your research, please cite us as follows:
 
