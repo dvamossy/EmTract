@@ -72,7 +72,7 @@ try:
     )["word"].tolist()
 
 except:
-    symspell_list = pd.read_csv("data/dictionaries/symspell_dict.csv")["word"].tolist()
+    symspell_list = pd.read_csv(BASE_DIR+"symspell_dict.csv")["word"].tolist()
 
 blacklist_items = (
     list(emoji.UNICODE_EMOJI["en"].keys())
