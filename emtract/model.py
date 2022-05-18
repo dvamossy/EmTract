@@ -6,9 +6,9 @@ import transformers
 from datasets import Dataset
 from scipy.special import softmax
 
-from .processors.cleaning import clean_tweet
+from .processors.cleaning import clean_text
 
-# We will leverage the trainer for predictions
+# We will leverage the trainer class with TrainingArguments for predictions
 TRAINING_ARGS = transformers.TrainingArguments(
     output_dir="results",
     num_train_epochs=8,
@@ -59,8 +59,8 @@ class Model:
         self.model_type = model_type
 
     def predict(self, text):
-        clean_text = [clean_tweet(t) for t in text]
-        dataset = Dataset.from_pandas(pd.DataFrame(clean_text, columns=["text"])).map(
+        cleaned_text = [clean_text(t) for t in text]
+        dataset = Dataset.from_pandas(pd.DataFrame(cleaned_text, columns=["text"])).map(
             tokenize, batched=True, batch_size=100000
         )
         dataset.set_format("torch", columns=["input_ids", "attention_mask"])
