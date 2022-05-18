@@ -1,16 +1,18 @@
 import os
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
-from emtract.model import Model, ModelType
+
+os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
 import pandas as pd
+
+from emtract.model import Model, ModelType
 
 
 class ModelInference:
 
-    MODEL_BASE_PATH = 'build/models/'
-    DATA_BASE_PATH = './emtract/data/'
+    MODEL_BASE_PATH = "build/models/"
+    DATA_BASE_PATH = "./emtract/data/"
 
     def __init__(self, model_type):
-        if model_type == 'twitter':
+        if model_type == "twitter":
             self.model = Model(ModelType.TWITTER)
         else:
             self.model = Model(ModelType.STOCK_TWITS)
