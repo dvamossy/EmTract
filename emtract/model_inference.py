@@ -13,9 +13,9 @@ class ModelInference:
 
     def __init__(self, model_type):
         if model_type == "twitter":
-            self.model = Model(ModelType.TWITTER)
+            self.model = Model(model_type="twitter")
         else:
-            self.model = Model(ModelType.STOCK_TWITS)
+            self.model = Model(model_type="stocktwits")
 
     def inference(self, text):
         return self.model.predict([text])
