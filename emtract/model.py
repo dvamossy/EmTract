@@ -44,22 +44,20 @@ def batch_predict(model, dataset):
     return probabilities
 
 
-class ModelType(Enum):
-    TWITTER = "twitter"
-    STOCK_TWITS = "stocktwits"
-
-
 class Model:
 
     MODEL_BASE_PATH = "./build/models/"
     DATA_BASE_PATH = "./emtract/data/"
 
-    def __init__(self, model_type: ModelType):
-        self.model = transformers.DistilBertForSequenceClassification.from_pretrained(
-            Model.MODEL_BASE_PATH + f"emotion-{model_type}", num_labels=7
-        )
-        self.model_type = model_type
-
+    def __init__(self, model_type: str):
+        try:
+            self.model_type = model_type
+            self.model = transformers.DistilBertForSequenceClassification.from_pretrained(
+                Model.MODEL_BASE_PATH + f"emotion-{model_type}", num_labels=7
+            )
+        except:
+            print(f"Model {model_type} not available.")
+            
     def predict(self, text):
         cleaned_text = [clean_text(t) for t in text]
         dataset = Dataset.from_pandas(pd.DataFrame(cleaned_text, columns=["text"])).map(
