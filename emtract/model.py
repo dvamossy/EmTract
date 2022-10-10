@@ -8,6 +8,8 @@ from scipy.special import softmax
 
 from .processors.cleaning import clean_text
 
+BATCH_SIZE = 64
+
 # We will leverage the trainer class with TrainingArguments for predictions
 TRAINING_ARGS = transformers.TrainingArguments(
     output_dir="results",
