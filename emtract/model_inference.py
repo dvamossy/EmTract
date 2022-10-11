@@ -3,7 +3,7 @@ import os
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
 import pandas as pd
 
-from emtract.model import Model, ModelType
+from emtract.model import Model
 
 
 class ModelInference:

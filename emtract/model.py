@@ -57,7 +57,7 @@ class Model:
             )
         except:
             print(f"Model {model_type} not available.")
-            
+
     def predict(self, text):
         cleaned_text = [clean_text(t) for t in text]
         dataset = Dataset.from_pandas(pd.DataFrame(cleaned_text, columns=["text"])).map(
