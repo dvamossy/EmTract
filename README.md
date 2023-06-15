@@ -3,7 +3,7 @@
 
 EmTract is a tool that extracts emotions from social media text. It incorporates key aspects of social media data (e.g., non-standard phrases, emojis and emoticons), and uses cutting edge natural language processing (NLP) techniques to learn latent representations, such as word order, word usage, and local context, to predict the emotions. 
 
-Details on the model and text processing are in the appendix of [EmTract: Extracting Emotions from Social Media](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3975884)). 
+Details on the model and text processing are in the appendix of [EmTract: Extracting Emotions from Social Media](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3975884). 
 
 ## User Guide
 
