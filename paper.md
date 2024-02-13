@@ -81,7 +81,7 @@ Special thanks to StockTwits for data and Huggingface for hosting the model(s).
 
 EmTract is has been utilized in research projects and scholarly publications, demonstrating its value and effectiveness in the field of financial sentiment analysis. Below is a set of works that have leveraged EmTract:
 
-- @vamossy2023emtract
+- @vamossy2023social
 - @vamossy2021investor
 - @vamossy2023emtract
 
