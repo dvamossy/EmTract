@@ -1,5 +1,5 @@
 ---
-title: 'EmTract: Extracting Emotions from Social Media'
+title: 'EmTract: A Python Package for Extracting Emotions from Social Media for Finance Research'
 tags:
   - Python
   - NLP
@@ -36,7 +36,7 @@ sentiments and predicting asset price trends.
 # Conclusion
 
 EmTract represents a significant advancement in financial sentiment analysis, offering a powerful tool for understanding and leveraging the emotional dynamics of financial markets.
-For more details see @vamossy2023emtract.
+For more details see `@vamossy2023emtract`.
 
 # Acknowledgements
 
@@ -46,6 +46,6 @@ Special thanks to StockTwits for data and Huggingface for hosting the model(s).
 
 EmTract is has been utilized in research projects and scholarly publications, demonstrating its value and effectiveness in the field of financial sentiment analysis. Below is a set of works that have leveraged EmTract:
 
-- @vamossy2023emtract
-- @vamossy2021investor
-- @vamossy2023emtract
+- `@vamossy2023emtract`
+- `@vamossy2021investor`
+- `@vamossy2023emtract`
