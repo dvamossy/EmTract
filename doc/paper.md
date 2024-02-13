@@ -15,6 +15,7 @@ affiliations:
    index: 1
  - name: Pontifical Catholic University of Chile
    index: 2
+bibliography: paper.bib
 date: 13 February 2024
 
 ---
